@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yealink.dao.DeptDao">
+    <resultMap id="deptMap" type="com.yealink.pojo.Dept">
+        <result column="dept_id" property="id"/>
+        <result column="dept_name" property="name"/>
+    </resultMap>
+    
+    <sql id="table_name">dept</sql>
+    <sql id="field_list">
+        dept_id,dept_name
+    </sql>
+
+    <select id="selectById" parameterType="java.lang.Integer" resultMap="deptMap">
+        SELECT * FROM dept WHERE dept_id = #{id}
+    </select>
+    <insert id="insert" parameterType="com.yealink.pojo.Dept">
+        INSERT INTO
+        <include refid="table_name"/>
+        (dept_id,dept_name)
+        VALUES (
+          #{id},#{name}
+        )
+    </insert>
+
+    <delete id="delete" parameterType="java.lang.Integer">
+        DELETE FROM
+        <include refid="table_name"/>
+        WHERE dept_id = #{id}
+    </delete>
+
+    <delete id="deleteBatch" parameterType="java.lang.Integer">
+        DELETE FROM
+        <include refid="table_name"/>
+        WHERE dept_id IN
+        <foreach item="idItem" collection="array" open="(" separator="," close=")">
+            #{idItem}
+        </foreach>
+    </delete>
+
+    <select id="getPageList" resultMap="deptMap" >
+        SELECT * FROM
+        <include refid="table_name"/>
+    </select>
+
+    <update id="update">
+        UPDATE
+        <include refid="table_name"/>
+        <set>
+            <if test="name != null  and name != '' ">dept_name=#{name},</if>
+        </set>
+        WHERE dept_id=#{id}
+    </update>
+
+    <select id="selectByName" parameterType="java.lang.String" resultMap="deptMap">
+        select * from
+        <include refid="table_name"/>
+        where dept_name = #{deptname}
+    </select>
+</mapper>

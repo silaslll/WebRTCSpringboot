@@ -1,0 +1,2 @@
+1、用https方式 或者
+2、https://www.cnblogs.com/Wayou/p/using_MediaDevices_getUserMedia_wihtout_https.html

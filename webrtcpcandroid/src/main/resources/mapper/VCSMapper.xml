@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yealink.dao.VCSDao">
+    <resultMap id="VCSBean" type="com.yealink.pojo.VCS">
+        <id column="vcs_id" property="vcsId"></id>
+        <result column="creater" property="creater"></result>
+        <result column="vcs_title" property="vcsTitle"></result>
+        <result column="vcs_state" property="vcsState"></result>
+    </resultMap>
+
+    <resultMap id="Temps" type="com.yealink.pojo.VCS">
+        <id column="vcs_id" property="vcsId"></id>
+        <collection property="invited" ofType="com.yealink.pojo.Temp">
+            <result column="vcs_id" property="vcsId"></result>
+            <result column="username" property="username"></result>
+        </collection>
+    </resultMap>
+
+    <sql id="table_name">vcs</sql>
+
+    <select id="selectPageList" parameterType="com.yealink.pojo.VCS" resultMap="VCSBean">
+        SELECT * FROM vcs
+        <where>
+            <if test="vcsState != null and vcsState != ''">and vcs_state = #{vcsState}</if>
+            <if test="vcsTitle != null and vcsTitle != ''">and vcs_title LIKE  '%${vcsTitle}%'</if>
+        </where>
+    </select>
+
+    <select id="getTemps" parameterType="java.lang.Integer" resultMap="Temps">
+        SELECT v.vcs_id, t.vcs_id,username FROM vcs as v , temp as t WHERE v.vcs_id = t.vcs_id AND t.vcs_id = #{id};
+    </select>
+
+    <select id="selectMaxId" resultType="java.lang.Integer">
+        SELECT MAX(vcs_id) FROM vcs;
+    </select>
+
+    <select id="getCreater" parameterType="java.lang.Integer" resultType="java.lang.String">
+        SELECT creater FROM vcs WHERE vcs_id = #{id};
+    </select>
+
+    <insert id="saveVCS" parameterType="com.yealink.pojo.VCS">
+        INSERT INTO
+        <include refid="table_name"/>
+        (vcs_id,creater,vcs_title,vcs_state)
+        VALUES
+        (
+        #{vcsId},#{creater},#{vcsTitle},#{vcsState}
+        )
+    </insert>
+
+    <update id="closeVCS" parameterType="java.lang.Integer">
+        UPDATE
+        <include refid="table_name"/>
+        SET vcs_state = 0
+        WHERE vcs_id = #{id};
+    </update>
+
+    <select id="getVcsState" parameterType="java.lang.Integer" resultType="java.lang.Integer">
+        select vcs_state FROM <include refid="table_name"/> WHERE vcs_id = #{id};
+    </select>
+
+    <delete id="deleteVCS" parameterType="java.lang.Integer">
+        DELETE FROM <include refid="table_name"/>
+        WHERE vcs_id = #{id};
+    </delete>
+
+    <delete id="deleteBatch" parameterType="java.lang.Integer">
+        DELETE FROM
+        <include refid="table_name"/>
+        WHERE vcs_id IN
+        <foreach item="idItem" collection="array" open="(" separator="," close=")">
+            #{idItem}
+        </foreach>
+    </delete>
+</mapper>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yealink.dao.StaffDao">
+    <resultMap id="StaffBean" type="com.yealink.pojo.Staff">
+        <id column="staff_id" property="id"></id>
+        <result column="staff_name" property="name"></result>
+        <result column="sex" property="sex"></result>
+        <result column="age" property="age"></result>
+        <result column="phone" property="phone"></result>
+        <result column="p_id" property="pId"></result>
+        <association property="post" javaType="com.yealink.pojo.Post">
+            <id column="post_id" property="id"></id>
+            <result column="post_name" property="name"></result>
+            <result column="d_id" property="dId"></result>
+            <association property="dept" javaType="com.yealink.pojo.Dept">
+                <id column="dept_id" property="id"></id>
+                <result column="dept_name" property="name"></result>
+            </association>
+        </association>
+    </resultMap>
+
+
+
+
+    <sql id="table_name">staff</sql>
+
+    <select id="selectAll" resultMap="StaffBean" parameterType="com.yealink.pojo.Post">
+        <!--select * from <include refid="table_name"/> as s RIGHT JOIN post as p ON s.p_id = p.post_id RIGHT JOIN  dept as d ON  p.d_id = d.dept_id-->
+        select * from <include refid="table_name"/> as s , post as p ,dept as d
+        <where>
+            s.p_id = p.post_id AND p.d_id = d.dept_id
+            <if test="name != null and name !='' ">and p.post_name like '%${name}%'</if>
+            <if test="dId != null and dId !='' ">and p.d_id=#{dId}</if>
+        </where>
+        ORDER BY s.staff_id
+    </select>
+
+    <select id="selectBySid" resultMap="StaffBean" parameterType="java.lang.Integer">
+        <!--select * from <include refid="table_name"/> as s RIGHT JOIN post as p ON s.p_id = p.post_id RIGHT JOIN  dept as d ON  p.d_id = d.dept_id-->
+        select * from <include refid="table_name"/> as s , post as p ,dept as d
+        WHERE s.staff_id = #{id} AND s.p_id = p.post_id AND p.d_id = d.dept_id
+    </select>
+
+    <select id="selectStaffByPid" parameterType="java.lang.Integer" resultType="com.yealink.pojo.Staff">
+        select staff_id as id,staff_name as name,sex,age,phone,p_id as pId
+        FROM <include refid="table_name"/>
+        WHERE p_id = #{id}
+    </select>
+
+    <insert id="insert" parameterType="com.yealink.pojo.Staff">
+        INSERT INTO
+        <include refid="table_name"/>
+        (staff_id,staff_name,sex,age,phone,p_id)
+        VALUES
+        (
+        #{id},#{name},#{sex},#{age},#{phone},#{pId}
+        )
+    </insert>
+
+    <update id="updateStaff" parameterType="com.yealink.pojo.Staff">
+        UPDATE
+        <include refid="table_name"/>
+        <set>
+            <if test="name != null and name !=''"> staff_name = #{name},</if>
+            <if test="sex !=null and sex !=''">sex = #{sex},</if>
+            <if test="age != null and age !=''">age = #{age},</if>
+            <if test="phone !=null and phone !=''">phone = #{phone},</if>
+            <if test="pId !=null and pId !=''">p_id = #{pId},</if>
+        </set>
+        WHERE staff_id =#{id}
+    </update>
+
+    <delete id="deleteById" parameterType="java.lang.Integer">
+        DELETE FROM
+        <include refid="table_name"/>
+        WHERE staff_id = #{id}
+    </delete>
+
+    <delete id="batchDeleteStaff" parameterType="java.lang.Integer">
+        DELETE FROM
+        <include refid="table_name"/>
+        WHERE staff_id IN
+        <foreach collection="array" item="itemId" open="(" separator="," close=")">
+            #{itemId}
+        </foreach>
+    </delete>
+</mapper>

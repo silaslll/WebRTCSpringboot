@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yealink.dao.AccountDao">
+
+    <resultMap id="AccountBean" type="com.yealink.pojo.Account">
+        <id column="username" property="username"></id>
+        <result column="password" property="password"></result>
+        <association property="staff" column="sId" javaType="com.yealink.pojo.Staff">
+            <result column="staff_name" property="name"></result>
+            <association property="post" javaType="com.yealink.pojo.Post">
+                <result column="post_name" property="name"></result>
+                <association property="dept" javaType="com.yealink.pojo.Dept">
+                    <result column="dept_name" property="name"></result>
+                </association>
+            </association>
+        </association>
+    </resultMap>
+    
+    <sql id="table_name">account</sql>
+    <sql id="field_list">
+        username , password , s_id
+    </sql>
+
+    <select id="getAccountPageList" resultMap="AccountBean" parameterType="com.yealink.pojo.Dept">
+        SELECT username,password,staff_name,post_name,dept_name
+        FROM account as a,staff as s,post as p,dept as d
+        <where>
+            a.s_id = s.staff_id AND s.p_id = p.post_id AND p.d_id =d.dept_id
+            <if test="id != null and id !=''">AND  d.dept_id = #{id}</if>
+        </where>
+    </select>
+
+    <select id="getAccount" parameterType="java.lang.String" resultType="com.yealink.pojo.Account">
+        SELECT username,password , s_id as sId FROM
+        <include refid="table_name"/>
+        WHERE username = #{name}
+    </select>
+
+    <select id="getAccountBySid" parameterType="java.lang.Integer" resultType="com.yealink.pojo.Account">
+        SELECT username,password , s_id as sId FROM
+        <include refid="table_name"/>
+        WHERE s_id = #{sId}
+    </select>
+
+    <insert id="saveAccount" parameterType="com.yealink.pojo.Account">
+        INSERT INTO
+        <include refid="table_name"/>
+        (
+        <include refid="field_list"/>
+        )
+        VALUES
+        (
+        #{username},#{password},#{sId}
+        )
+    </insert>
+
+    <update id="updateAccount" parameterType="com.yealink.pojo.Account">
+        UPDATE
+        <include refid="table_name"/>
+        <set>
+            <if test="password !=null and password != ''">password =#{password}</if>
+        </set>
+        WHERE username = #{username}
+    </update>
+
+    <delete id="deleteByUsername" parameterType="java.lang.String">
+        DELETE FROM
+        <include refid="table_name"/>
+        WHERE username=#{username}
+    </delete>
+
+    <delete id="batchDeleteAccount" parameterType="java.lang.String">
+        DELETE FROM
+        <include refid="table_name"/>
+        WHERE username IN
+        <foreach collection="array" item="itemId" open="(" separator="," close=")">
+            #{itemId}
+        </foreach>
+    </delete>
+</mapper>

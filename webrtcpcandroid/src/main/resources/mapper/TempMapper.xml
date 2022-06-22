@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yealink.dao.TempDao">
+
+    <sql id="table_name">temp</sql>
+
+    <select id="getTemp" parameterType="com.yealink.pojo.Temp" resultType="com.yealink.pojo.Temp">
+        select vcs_id as vcsId, username FROM
+        <include refid="table_name"/>
+        <where>
+            <if test="vcsId != null and vcsId != ''">AND vcs_id = #{vcsId}</if>
+            <if test="username != null and username !=''">AND username= #{username}</if>
+        </where>
+    </select>
+
+    <insert id="saveTemp" parameterType="com.yealink.pojo.Temp">
+        INSERT INTO
+        <include refid="table_name"/>
+        (vcs_id,username)
+        VALUES
+        (
+          #{vcsId},#{username}
+        )
+    </insert>
+
+    <insert id="saveTempList" parameterType="List">
+        INSERT INTO
+        <include refid="table_name"/>
+        (vcs_id,username)
+        VALUES
+        <foreach collection="list" item="temp" index="tempIndex" separator=",">
+            ( #{temp.vcsId} , #{temp.username} )
+        </foreach>
+    </insert>
+</mapper>
