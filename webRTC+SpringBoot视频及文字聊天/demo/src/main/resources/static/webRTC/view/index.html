@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>房间名输入</title>
+		<link rel="stylesheet" href="/static/webRTC/css/main.css">
+		<style type="text/css">
+			.col-center {
+				float: none;
+				width: 30%;
+				display: block;
+				margin-top: 12%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			input{
+				outline-style: none ;
+				border: 1px solid #ccc;
+				border-radius: 3px;
+				padding: 13px 14px;
+				width: 300px;
+				font-size: 14px;
+				font-weight: 700;
+			}
+
+			input:focus{
+				border-color: #66afe9;
+				outline: 0;
+				-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+				box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+			}
+
+
+			.join-button { /* 按钮美化 */
+				width: 270px; /* 宽度 */
+				height: 40px; /* 高度 */
+				border-width: 0; /* 边框宽度 */
+				border-radius: 3px; /* 边框半径 */
+				background: #1E90FF; /* 背景颜色 */
+				cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+				outline: none; /* 不显示轮廓线 */
+				color: white; /* 字体颜色 */
+				font-size: 17px; /* 字体大小 */
+			}
+
+			.join-button:hover { /* 鼠标移入按钮范围时改变颜色 */
+				background: #5599FF;
+			}
+		</style>
+	</head>
+	<body style="background-image: url(/static/webRTC/img/welcome.jpg); text-align: center;">
+		<div>
+			<form class="col-center" role="form"
+				  style="border-radius: 5px; background-color: #ffffff; opacity: 0.8; padding-bottom: 50px; padding-right: 20px; padding-top: 50px;">
+				<div style="margin-bottom: 20px;">
+					<label for="room">
+						房间名：<input type="text" id="room" placeholder="请输入房间名称，需和伙伴的名称一致">
+					</label>
+				</div>
+				<div>
+					<button class="join-button" type="button" onclick="gotoNextPage();">加入</button>
+				</div>
+			</form>
+		</div>
+	</body>
+	<script language="javascript" type="text/javascript">
+        function gotoNextPage(){
+            var roomid = document.querySelector('input#room');
+            if(roomid.value === null || roomid.value === ''){
+                alert('roomid is null');
+            }else {
+                window.location.href="room.html?room="+ roomid.value;
+            }
+        }
+	</script>
+</html>
