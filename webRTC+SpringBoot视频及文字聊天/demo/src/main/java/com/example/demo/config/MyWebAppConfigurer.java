@@ -41,6 +41,4 @@ public class MyWebAppConfigurer implements WebMvcConfigurer {
 //        registry.addResourceHandler("/webRTC/**").addResourceLocations("classpath:/webRTC/");
         logger.info("映射静态资源...");
     }
-
-
 }
