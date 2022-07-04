@@ -28,4 +28,5 @@ public interface AccountDao {
     public Integer deleteByUsername(String username);
 
     public Integer batchDeleteAccount(String usernames[]);
+    
 }
