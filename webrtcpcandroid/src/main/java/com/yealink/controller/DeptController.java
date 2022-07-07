@@ -32,6 +32,7 @@ public class DeptController {
         List<Dept> deptList=deptService.getPageList();
         PageInfo<Dept> pageInfo=new PageInfo<Dept>(deptList,3);
         return Msg.success().add("pageInfo",pageInfo);
+        
     }
 
     @RequestMapping(value = "",method = RequestMethod.GET)
