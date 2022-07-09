@@ -1,0 +1,68 @@
+# Dockerfile for Java 11 platform
+
+######################################################################################################
+FROM adoptopenjdk/openjdk11:x86_64-alpine-jdk-11.0.5_10 AS STAGING-JRE-MINI
+
+# At this point JAVA_HOME refers to:
+#   adoptopenjdk: /opt/java/openjdk
+#   zulu: /usr/lib/jvm/zulu-11
+
+# Build a smaller Java 11 JRE
+RUN ${JAVA_HOME}/bin/jlink \
+     --module-path ${JAVA_HOME}/jmods \
+     --compress=2 \
+     --add-modules java.base,java.compiler,java.desktop,java.instrument,java.management.rmi,java.naming,java.prefs,java.scripting,java.security.jgss,java.sql,jdk.httpserver,jdk.unsupported \
+     --no-header-files \
+     --no-man-pages \
+     --strip-debug \
+     --output ${JAVA_HOME}/customjre \
+    && apk add --no-cache --virtual .build-deps binutils \
+    && strip -p --strip-unneeded ${JAVA_HOME}/customjre/lib/server/libjvm.so \
+    && apk del --purge .build-deps \
+    && rm -rf /tmp/*.apk /tmp/gcc /tmp/gcc-libs.tar.xz /tmp/libz /tmp/libz.tar.xz /var/cache/apk/*
+    
+
+######################################################################################################
+FROM alpine:3.10.3 AS STAGING-APP
+ARG DEPENDENCIES=docker-workdir
+
+RUN mkdir -p /staging/app/
+
+# Stage dependencies and classes
+COPY ${DEPENDENCIES}/META-INF             /staging/app/META-INF
+COPY ${DEPENDENCIES}/BOOT-INF             /staging/app/BOOT-INF
+COPY ${DEPENDENCIES}/run-java.sh          /staging/app/
+
+# Assign execution permission to fabric8's run-java.sh script
+RUN chmod 755 /staging/app/run-java.sh
+
+
+######################################################################################################
+FROM alpine:3.10.3
+ARG JAVA_MAIN_CLASS
+
+# JAVA_HOME needs to be set:
+#   adoptopenjdk: /opt/java/openjdk
+#   zulu: /usr/lib/jvm/zulu-11
+
+ENV ENV_JAVA_MAIN_CLASS=${JAVA_MAIN_CLASS} \
+    JAVA_HOME=/opt/java/openjdk \
+    ENV_JAVA_MODULES_FOR_HAZELCAST="--add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED"
+
+ENV PATH="$PATH:$JAVA_HOME/bin"
+    
+# Copy JRE mini runtime from previous stage
+COPY --from=STAGING-JRE-MINI $JAVA_HOME/customjre $JAVA_HOME
+
+# Copy staged decompressed JAR from previous stage
+COPY --from=STAGING-APP /staging/app  /app
+
+# Using CMD so it can be overwritten from outside
+CMD java ${ENV_JAVA_MODULES_FOR_HAZELCAST} -cp /app/BOOT-INF/classes:/app/BOOT-INF/lib/* ${ENV_JAVA_MAIN_CLASS}
+
+# Using fabric8's run-java.sh
+#CMD JAVA_OPTIONS="${JAVA_OPTS} ${ENV_JAVA_MODULES_FOR_HAZELCAST}" \
+#    JAVA_APP_DIR=/app \
+#    JAVA_CLASSPATH=/app/BOOT-INF/classes:/app/BOOT-INF/lib/* \
+#    JAVA_MAIN_CLASS=${ENV_JAVA_MAIN_CLASS} \
+#    sh /app/run-java.sh
