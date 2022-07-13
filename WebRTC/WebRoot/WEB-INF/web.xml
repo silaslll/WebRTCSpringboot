@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+
+	
+	<servlet>
+		<servlet-name>Msg</servlet-name>
+		<display-name>msg</display-name>
+		<description>msg</description>
+		<servlet-class>com.acgist.demo.Msg</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Demo</servlet-name>
+		<servlet-class>com.acgist.demo.Msg1</servlet-class>
+	</servlet>
+	<!-- websoket的demo -->
+	<servlet>
+		<servlet-name>clientA</servlet-name>
+		<servlet-class>com.acgist.websoket.ClientAServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>clientB</servlet-name>
+		<servlet-class>com.acgist.websoket.ClientBServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>clientC</servlet-name>
+		<servlet-class>com.acgist.websoket.ClientCServlet</servlet-class>
+	</servlet>
+	
+	<!-- websoket加webrtc的demo -->
+	<servlet>
+		<servlet-name>rtcclientA</servlet-name>
+		<servlet-class>com.acgist.rtc.ClientAServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>rtcclientB</servlet-name>
+		<servlet-class>com.acgist.rtc.ClientBServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>rtcclientC</servlet-name>
+		<servlet-class>com.acgist.rtc.ClientCServlet</servlet-class>
+	</servlet>
+	
+	<!--多人 websoket加webrtc的demo -->
+	<servlet>
+		<servlet-name>manyrtcclientA</servlet-name>
+		<servlet-class>com.acgist.manyrtc.ClientAServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>manyrtcclientB</servlet-name>
+		<servlet-class>com.acgist.manyrtc.ClientBServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>manyrtcclientC</servlet-name>
+		<servlet-class>com.acgist.manyrtc.ClientCServlet</servlet-class>
+	</servlet>
+	
+	
+	
+	<servlet-mapping>
+		<servlet-name>Msg</servlet-name>
+		<url-pattern>/msg</url-pattern>
+	</servlet-mapping>
+	<!-- websoket的demo -->
+	<servlet-mapping>
+		<servlet-name>clientA</servlet-name>
+		<url-pattern>/clientA</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>clientB</servlet-name>
+		<url-pattern>/clientB</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>clientC</servlet-name>
+		<url-pattern>/clientC</url-pattern>
+	</servlet-mapping>
+	
+	<!-- websoket加webrtc的demo -->
+	<servlet-mapping>
+		<servlet-name>rtcclientA</servlet-name>
+		<url-pattern>/rtcclientA</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>rtcclientB</servlet-name>
+		<url-pattern>/rtcclientB</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>rtcclientC</servlet-name>
+		<url-pattern>/rtcclientC</url-pattern>
+	</servlet-mapping>
+	
+	<!--多人 websoket加webrtc的demo -->
+	<servlet-mapping>
+		<servlet-name>manyrtcclientA</servlet-name>
+		<url-pattern>/manyrtcclientA</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>manyrtcclientB</servlet-name>
+		<url-pattern>/manyrtcclientB</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>manyrtcclientC</servlet-name>
+		<url-pattern>/manyrtcclientC</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet-mapping>
+		<servlet-name>Demo</servlet-name>
+		<url-pattern>/demo</url-pattern>
+	</servlet-mapping>
+<!-- 
+<security-constraint> 
+	<web-resource-collection> 
+		<web-resource-name>security</web-resource-name> 
+		<url-pattern>/*</url-pattern> 
+	</web-resource-collection> 
+	<user-data-constraint> 
+		<transport-guarantee>CONFIDENTIAL</transport-guarantee> 
+	</user-data-constraint> 
+</security-constraint>
+ -->
+</web-app>
