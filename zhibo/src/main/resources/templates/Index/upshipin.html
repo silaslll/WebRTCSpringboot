@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html style="width:100%;height:100%;">
+<head>
+<meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/common/themes/default/easyui.css" />
+	<link rel="stylesheet" type="text/css" href="/common/themes/icon.css" />
+	<link rel="stylesheet" type="text/css" href="/common/themes/main.css" />
+	<script type="text/javascript" src="/common/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/common/js/common.js"></script>
+	<script type="text/javascript" src="/common/js/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="/common/js/easyui-lang-zh_CN.js"></script>
+</head>
+<body style="margin:0px; height:100%;">
+	<form id="updateForm"  method="POST" enctype="multipart/form-data">
+	<table class="bu_table">
+		<tr>
+			<td class="td_left">视频名</td>
+			<td class="td_right">
+				<input class="td_input" id="name" name="name"/>
+			</td>
+		</tr>
+		<tr>
+			<td class="td_left">选择视频</td>
+			<td class="td_right">
+				<input class="td_input"  type="file" id="file" name="file"/>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				<input type="button" class="greenbtn" onclick="sure();" value="确定"/>
+			</td>
+		</tr>
+	</table>
+	</form>
+	
+<script type="text/javascript">
+function sure(){
+	var url1 = getRootPath()+"/Index/up_shipin";
+	var file1 = $("#file").get(0).files[0];
+	var formData = new FormData($("#updateForm")[0]);
+		 $.ajax({
+	         //远程Rest接口
+	         url:url1,
+	         type:'POST',
+	         data:formData,
+			 cache: false,
+	         processData: false,
+	         contentType: false,
+	        success:function(data){
+	        	if(data.status==1){
+	    			$.messager.alert('提示',data.info,'info');
+	    		}else if(data.status==0){
+	    			$.messager.alert('提示',data.info,'info'); 
+	    		}
+	        },
+		 }) 
+}
+</script>
+</body>
+</html>

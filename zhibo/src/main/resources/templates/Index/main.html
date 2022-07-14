@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html  style="width:100%;height:100%;">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>远程手术指导及示教系统</title>
+    <link rel="stylesheet" type="text/css" href="/common/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/common/themes/icon.css">
+	<link rel="stylesheet" type="text/css" href="/common/themes/main.css">
+	
+	<script type="text/javascript" src="/common/js/common.js"></script>
+    <script type="text/javascript" src="/common/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/common/js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/common/js/easyui-lang-zh_cn.js"></script>
+        <style type="text/css">
+.STYLE1 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.head1{
+	background:#0E2D5F;
+}
+
+#z_menu li a{
+	color: #0190D4;
+	text-decoration: none;
+	
+	
+	
+}
+#z_menu li {
+	list-style: none;
+	line-height: 20px;
+	text-indent: 10px;
+	font-size: 13px;
+	font-weight: bold;
+}
+#z_menu ul{
+	padding:0;
+	text-align: left;
+	
+}
+</style>
+</head>
+<body style="width:100%;height:100%;">
+<div id="cc" class="easyui-layout" style="width:100%;height:100%;">   
+    <div data-options="region:'north'" style="height:50px;" class="head1" align="center">
+    	<span class="STYLE1">远程手术指导及示教系统</span>
+    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	<a href="#" onclick="tui();" style="color:white;font-size:15px">登出</a>
+    </div>   
+    <div data-options="region:'west',title:'功能菜单'" style="width:150px;">
+    	<div  class="easyui-accordion" id="z_menu">   
+			<div title="直播模块"  style="overflow:auto;padding:10px;">   
+				<ul>
+					<li id="zb" ><a onclick="addTab('直播','/Index/show');" href="javascript:void(0)">直播</a></li>
+					<li id="kzb" ><a onclick="addTab('观看直播','/Index/kanbo');" href="javascript:void(0)">观看直播</a></li>
+					<li id="ups" ><a onclick="addTab('上传视频','/Index/upshipin');" href="javascript:void(0)">上传视频</a></li>
+					<li id="ksp" ><a onclick="addTab('观看视频','/Index/viewshipin');" href="javascript:void(0)">观看视频</a></li>
+				</ul> 
+			</div>   
+			<div title="系统管理"  style="padding:10px;">   
+			    <ul>
+					<li id="yh"><a onclick="addTab('用户管理' ,'/Index/user');" href="javascript:void(0)">用户管理</a></li>
+					<li id="shs"><a onclick="addTab('手术室管理' ,'/Index/fangjian');" href="javascript:void(0)">手术室管理</a></li>
+				</ul> 
+			</div>  
+		</div> 
+    </div>   
+    <div data-options="region:'center',title:'我的桌面'" style="padding:5px;background:#eee;">
+    	<div id="tabs" class="easyui-tabs" fit="true" border="true" style="overflow-y:hidden;">
+    		
+    	</div>
+    
+    </div>   
+</div>  
+
+<script type="text/javascript">
+var user_no = localStorage.getItem("user_no");
+$(function(){
+	$.ajax({
+		type:'post',
+		url:getRootPath()+"/Index/get_role",
+		async:false,
+		data:{"user_no":user_no},
+		success:function(data){
+			if(data.leixing=="医生"){
+				;
+			}else if(data.leixing=="普通用户"){
+				$("#shs").hide();
+				$("#zb").hide();
+				$("#ups").hide();
+			}
+		}
+	});
+});
+//添加选项卡的方法	
+function addTab(title, url) {
+	/* $('#tabs').tabs('close', title);
+	if(title!="直播"){ */
+		var content = '<iframe scrolling="no" frameborder="0"  src="' +getRootPath()+ url + '" style="width:100%;height:100%;overflow:hidden;"></iframe>';		
+	/* }else{
+		var content = '<iframe scrolling="no" frameborder="0"  src="' +getRootPath()+ url + '?oid='+user_no+'" style="width:100%;height:100%;overflow:hidden;"></iframe>';
+	} */
+	$('#tabs').tabs('add', {
+		title: title,
+		content: content,
+		closable: true
+	});
+}
+
+//退出
+function tui(){
+	window.location.href=getRootPath()+"/Index/index";
+}
+</script>
+</body>
+ 
+</html>

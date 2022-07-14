@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	 <link rel="stylesheet" type="text/css" href="/common/themes/default/easyui.css" />
+    <link rel="stylesheet" type="text/css" href="/common/themes/icon.css" />
+	<link rel="stylesheet" type="text/css" href="/common/themes/main.css" />
+    <script type="text/javascript" src="/common/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/common/js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/common/js/easyui-lang-zh_CN.js"></script>
+	<script type="text/javascript" src="/common/js/common.js"></script>
+</head>
+
+<body>
+	<form id="form">
+	<table id="table" class="bu_table" style="width:100%" border="0" cellspacing="1" cellpadding="0">
+			<tr>
+				<td class="td_left"  style="text-align:center;width:40%;">房间名称</td>
+				<td class="td_right">
+					<input id="fangjianname1" name="fangjianname1" class="td_input" style="width:90%;"/> 
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="td_left"  style="text-align:center;width:40%;">房间标题</td>
+				<td class="td_right">
+					<input id="title" name="title" class="td_input" style="width:90%;"/> 
+				</td>
+			</tr>
+			<tr>
+			<td colspan="2" align="center">
+				<input type="button" class="greenbtn" onclick="save_fangjian_apply();" value="确定"/>
+			</td>
+		</tr>
+		
+		</table>
+	</form>		
+    <script type="text/javascript">
+  			var id=0;
+   		$(function(){
+   			
+   			var node =  $("#user_list").datagrid('getSelected');
+   			if(node){
+	    		$("#form").form('load',{
+	    			fangjianname1           : node.fangjianname,
+	    			title           : node.title,
+    			});
+	    		
+	    		id=node.id;
+   			}
+    	});
+   		
+    	function save_fangjian_apply(){
+    		
+    		var fangjian_flag = $("#fangjian_flag").val();
+    		//校验数据
+    		var isValid = $("#form").form('validate');
+    	    if (isValid ==false) {
+    	        return;
+    	    }
+    		$.ajax({
+    	    	url:getRootPath()+"/Index/save_fangjian?id="+id+"&fangjian_flag="+fangjian_flag,
+    	    	type:'post',
+    	    	data:$("#form").serialize(),
+    	    	success:function(msg){
+    	    		if(msg.status=="1"){
+    	    			$.messager.alert('操作提示', msg.info, 'info');
+    	    			$("#edit_fangjian_apply").dialog('close');
+    	    			 $("#fangjian_list").datagrid('reload');//重新加载列表页面
+    	    		}else{
+    	    			$.messager.alert('操作提示', msg.info, 'info');
+    	    		}
+    	    	},
+    	    });
+    		
+    	}
+    </script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+2019-05-23 22:40:34,430 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-23 22:40:34,441 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: lxx(String)
+2019-05-23 22:40:34,447 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-23 22:40:34,448 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into user (username,password,leixing) values(?,?,?) 
+2019-05-23 22:40:34,459 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: lxx(String), 123456(String), 医生(String)
+2019-05-23 22:40:34,463 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-23 22:40:47,227 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-23 22:40:47,228 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: lxx(String), 123456(String)
+2019-05-23 22:40:47,230 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:40:47,487 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-23 22:40:47,489 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: lxx(String)
+2019-05-23 22:40:47,494 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:40:50,020 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-23 22:40:50,022 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: lihaibo1(String)
+2019-05-23 22:40:50,023 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-23 22:40:50,024 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into user (username,password,leixing) values(?,?,?) 
+2019-05-23 22:40:50,025 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: lihaibo1(String), 1234(String), 普通用户(String)
+2019-05-23 22:40:50,028 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-23 22:40:54,840 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-23 22:40:54,842 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String)
+2019-05-23 22:40:54,843 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-23 22:40:54,960 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-23 22:40:54,961 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:40:54,963 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:40:57,276 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-23 22:40:57,278 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:40:57,282 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:40:58,231 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-23 22:40:58,233 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: lihaibo1(String), 1234(String)
+2019-05-23 22:40:58,236 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:40:58,635 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-23 22:40:58,636 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: lihaibo1(String)
+2019-05-23 22:40:58,641 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:41:10,862 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-23 22:41:10,863 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:41:10,865 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:41:14,527 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-23 22:41:14,528 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 啦啦啦(String)
+2019-05-23 22:41:14,529 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-23 22:41:14,530 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into user (username,password,leixing) values(?,?,?) 
+2019-05-23 22:41:14,531 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 啦啦啦(String), 123(String), 医生(String)
+2019-05-23 22:41:14,533 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-23 22:41:22,892 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-23 22:41:22,893 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:41:22,895 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:41:24,944 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-23 22:41:24,945 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 啦啦啦(String), 123(String)
+2019-05-23 22:41:24,947 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:41:27,864 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-23 22:41:27,866 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 啦啦啦(String)
+2019-05-23 22:41:27,867 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:41:33,189 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-23 22:41:33,190 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:41:33,192 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:41:34,067 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-23 22:41:34,068 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:41:34,070 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:41:46,719 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-23 22:41:46,720 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:41:46,722 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:41:57,204 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-23 22:41:57,206 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:41:57,207 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:42:12,308 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-23 22:42:12,310 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123467(String)
+2019-05-23 22:42:12,311 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-23 22:42:12,313 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into user (username,password,leixing) values(?,?,?) 
+2019-05-23 22:42:12,313 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123467(String), 123467(String), 医生(String)
+2019-05-23 22:42:12,317 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-23 22:42:22,876 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-23 22:42:22,877 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123467(String), 123467(String)
+2019-05-23 22:42:22,880 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:42:23,114 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-23 22:42:23,115 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123467(String)
+2019-05-23 22:42:23,117 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:42:46,526 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-23 22:42:46,528 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:42:46,532 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:42:56,275 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 and username like CONCAT('%',?,'%') 
+2019-05-23 22:42:56,277 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123467(String)
+2019-05-23 22:42:56,278 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-23 22:43:00,836 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-23 22:43:00,838 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:43:00,839 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:43:04,030 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-23 22:43:04,031 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:43:04,032 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:43:05,616 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-23 22:43:05,618 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:43:05,622 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:43:50,577 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 and username like CONCAT('%',?,'%') 
+2019-05-23 22:43:50,577 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123467(String)
+2019-05-23 22:43:50,578 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-23 22:43:56,922 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where fangjianname = ? 
+2019-05-23 22:43:56,924 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1234(String)
+2019-05-23 22:43:56,925 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-23 22:43:56,926 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into fangjian (fangjianname,title,username) values(?,?,?) 
+2019-05-23 22:43:56,927 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1234(String), 1234(String), 123467(String)
+2019-05-23 22:43:56,935 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-23 22:43:57,002 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 and username like CONCAT('%',?,'%') 
+2019-05-23 22:43:57,003 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123467(String)
+2019-05-23 22:43:57,007 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:44:04,748 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-23 22:44:04,750 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:44:04,754 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-05-23 22:44:56,623 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-23 22:44:56,625 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:44:56,627 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-05-23 22:45:05,437 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-23 22:45:05,439 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:45:05,451 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-05-23 22:45:38,601 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-23 22:45:38,603 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1234(String), 1234(String)
+2019-05-23 22:45:38,604 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-23 22:45:50,264 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-23 22:45:50,265 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: lihaibo(String), lihaibo(String)
+2019-05-23 22:45:50,267 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-23 22:46:03,195 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-23 22:46:03,196 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: qwer(String)
+2019-05-23 22:46:03,198 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-23 22:46:03,199 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into user (username,password,leixing) values(?,?,?) 
+2019-05-23 22:46:03,201 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: qwer(String), qwer(String), 普通用户(String)
+2019-05-23 22:46:03,203 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-23 22:46:09,361 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-23 22:46:09,365 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: qwer(String), qwer(String)
+2019-05-23 22:46:09,367 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:46:09,699 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-23 22:46:09,701 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: qwer(String)
+2019-05-23 22:46:09,707 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:46:10,943 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-23 22:46:10,944 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:46:10,948 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-05-23 22:46:30,505 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-23 22:46:30,506 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:46:30,510 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:46:31,317 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-23 22:46:31,319 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:46:31,322 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-05-23 22:46:47,409 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-23 22:46:47,410 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:46:47,414 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:46:47,648 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-23 22:46:47,649 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:46:47,651 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-05-23 22:47:38,285 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-23 22:47:38,287 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:47:38,289 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-05-23 22:48:13,022 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-23 22:48:13,024 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: qwer(String), qwer(String)
+2019-05-23 22:48:13,028 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:48:13,372 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-23 22:48:13,373 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: qwer(String)
+2019-05-23 22:48:13,374 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-23 22:48:14,981 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-23 22:48:14,982 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-23 22:48:14,985 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2

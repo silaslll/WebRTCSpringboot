@@ -1,0 +1,55 @@
+2019-05-14 10:48:00,228 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on DESKTOP-O3U4VFI with PID 16740 (C:\Users\admin\Desktop\zhibo\target\classes started by admin in C:\Users\admin\Desktop\zhibo)
+2019-05-14 10:48:00,255 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-14 10:48:00,256 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-14 10:48:13,809 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 15.659 seconds (JVM running for 20.864)
+2019-05-14 10:51:17,358 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-14 10:51:17,505 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String), 123456(String)
+2019-05-14 10:51:17,717 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-14 10:52:40,943 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where 1=1 
+2019-05-14 10:52:40,944 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-14 10:52:40,949 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-14 10:54:40,501 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-14 10:54:40,503 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String), 123456(String)
+2019-05-14 10:54:40,560 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-14 11:12:44,629 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on DESKTOP-O3U4VFI with PID 16740 (C:\Users\admin\Desktop\zhibo\target\classes started by admin in C:\Users\admin\Desktop\zhibo)
+2019-05-14 11:12:44,630 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-14 11:12:44,630 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-14 11:12:48,976 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 4.656 seconds (JVM running for 1496.03)
+2019-05-14 11:12:57,383 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on DESKTOP-O3U4VFI with PID 16740 (C:\Users\admin\Desktop\zhibo\target\classes started by admin in C:\Users\admin\Desktop\zhibo)
+2019-05-14 11:12:57,389 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-14 11:12:57,390 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-14 11:13:01,159 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.864 seconds (JVM running for 1508.213)
+2019-05-14 11:13:10,592 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on DESKTOP-O3U4VFI with PID 16740 (C:\Users\admin\Desktop\zhibo\target\classes started by admin in C:\Users\admin\Desktop\zhibo)
+2019-05-14 11:13:10,592 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-14 11:13:10,592 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-14 11:13:13,125 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.605 seconds (JVM running for 1520.179)
+2019-05-14 11:13:23,689 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on DESKTOP-O3U4VFI with PID 16740 (C:\Users\admin\Desktop\zhibo\target\classes started by admin in C:\Users\admin\Desktop\zhibo)
+2019-05-14 11:13:23,690 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-14 11:13:23,690 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-14 11:13:25,381 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.756 seconds (JVM running for 1532.435)
+2019-05-14 11:13:39,139 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on DESKTOP-O3U4VFI with PID 16740 (C:\Users\admin\Desktop\zhibo\target\classes started by admin in C:\Users\admin\Desktop\zhibo)
+2019-05-14 11:13:39,139 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-14 11:13:39,140 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-14 11:13:41,362 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.414 seconds (JVM running for 1548.416)
+2019-05-14 11:13:57,758 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on DESKTOP-O3U4VFI with PID 16740 (C:\Users\admin\Desktop\zhibo\target\classes started by admin in C:\Users\admin\Desktop\zhibo)
+2019-05-14 11:13:57,758 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-14 11:13:57,758 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-14 11:13:59,388 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.733 seconds (JVM running for 1566.442)
+2019-05-14 11:14:32,938 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on DESKTOP-O3U4VFI with PID 16740 (C:\Users\admin\Desktop\zhibo\target\classes started by admin in C:\Users\admin\Desktop\zhibo)
+2019-05-14 11:14:32,939 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-14 11:14:32,939 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-14 11:14:34,573 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.705 seconds (JVM running for 1601.627)
+2019-05-14 11:14:42,902 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on DESKTOP-O3U4VFI with PID 16740 (C:\Users\admin\Desktop\zhibo\target\classes started by admin in C:\Users\admin\Desktop\zhibo)
+2019-05-14 11:14:42,903 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-14 11:14:42,903 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-14 11:14:45,863 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.119 seconds (JVM running for 1612.917)
+2019-05-14 11:14:52,893 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on DESKTOP-O3U4VFI with PID 16740 (C:\Users\admin\Desktop\zhibo\target\classes started by admin in C:\Users\admin\Desktop\zhibo)
+2019-05-14 11:14:52,893 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-14 11:14:52,893 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-14 11:14:54,546 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.747 seconds (JVM running for 1621.601)
+2019-05-14 11:18:30,356 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-14 11:18:30,376 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String), 123456(String)
+2019-05-14 11:18:30,614 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-14 13:18:04,921 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where 1=1 
+2019-05-14 13:18:05,072 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-14 13:18:05,609 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1

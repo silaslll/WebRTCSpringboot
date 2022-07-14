@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+    background: #fff url(../images/zhucejiemian.jpg) no-repeat; 
+	background-position: center;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+p,ul,li,dl,dt,dd,form {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: KaiTi;
+	color: white;
+}
+
+input {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+}
+
+#regTitle {
+	background: url(../images/sms_reg_title.png) center bottom no-repeat;
+	height: 100px;
+}
+
+#regForm {
+	height: 306px;
+	background: url(../images/sms_reg_bg.png) center top no-repeat;
+}
+
+#regForm dl {
+	margin: 40px auto auto auto;
+	width: 215px;
+}
+
+#regForm dl dt {
+	width: 75px;
+}
+
+.userForm {
+	margin: 20px auto;
+}
+
+.userForm dl {
+	font-size: 14px;
+	line-height: 46px;
+}
+
+.userForm dl dt {
+	clear: left;
+	float: left;
+}
+
+.userForm dl dd {
+	float: left;
+}
+
+.userForm dl input {
+	background: url(../images/sms_input_bg.gif) no-repeat;
+	width: 130px;
+	height: 22px;
+	border: none;
+	font-size: 16px;
+	margin: 5px 0px;
+	padding: 5px;
+}
+
+.userForm .buttons {
+	clear: both;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.userForm .buttons input {
+	margin: 0px 15px;
+	width: 87px;
+	height: 39px;
+	border: none;
+	cursor: pointer;
+}
+
+.userForm .buttons .btn-login {
+	background: url(../images/sms_btn_login.png);
+}
+
+.userForm .buttons .btn-reg {
+	background: url(../images/sms_btn_reg.png);
+}
+
+.userForm .buttons .btn-reset {
+	background: url(../images/sms_btn_reset.png);
+}
+
+.userForm .goback {
+	padding-top: 40px;
+}
+
+.userForm .goback a {
+	display: block;
+	background: url(../images/sms_btn_goback.png);
+	width: 61px;
+	height: 19px;
+	text-indent: -1000em;
+	margin: 0px auto;
+	overflow: hidden;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html style="margin:0px; height:100%;">
+<head>
+<meta charset="UTF-8">
+<title>试卷管理</title>
+<link rel="stylesheet" type="text/css" href="/common/themes/default/easyui.css" />
+<link rel="stylesheet" type="text/css" href="/common/themes/icon.css" />
+<link rel="stylesheet" type="text/css" href="/common/themes/main.css" />
+<script type="text/javascript" src="/common/js/jquery.min.js"></script>
+<script type="text/javascript" src="/common/js/common.js"></script>
+<script type="text/javascript" src="/common/js/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="/common/js/easyui-lang-zh_CN.js"></script>
+</head>
+<body style="margin:0px; height:100%;">
+	<div id='main_div' style="margin:0px; height:100%;">
+	</div>
+<script type="text/javascript">
+
+
+$(function(){
+	$.ajax({
+        //远程Rest接口
+        url:getRootPath()+"/Index/get_fangjian_list1",
+        type:'POST',
+       async:false,
+       success:function(data){
+		for(var i=0;i<data.length;i++){
+			$("#main_div").append('<div style="margin-top:2rem;margin-left:80px;width:300px;height:400px;float:left;">'+
+					'<div style="width:100%;height:10%;font-size:12px;color:gray;" align="center">'+
+					'房间名：'+data[i].fangjianname+
+				'</div>'+	
+					'<div style="width:100%;height:80%">'+
+			'<img src="/img/zhibo.jpg" style="width:100%;height:100%" onclick="zhibo(\''+data[i].fangjianname+'\');"></img>'+
+			'</div>'+
+			'<div style="width:100%;height:10%;font-size:12px;color:gray;" align="center">'+
+				data[i].title+
+			'</div>'+	
+			'</div>');
+		}
+       }  
+	 }) 
+	    
+});
+
+
+function zhibo(fangjianname){
+	$('body').append("<div id='new_zhibo'></div>");
+	$("#new_zhibo").dialog({
+		top:0,
+		draggable:false,
+		width: '100%',
+		height:'100%',
+		cache: false,
+	/* 	href:getRootPath()+"/Index/zhibo?oid="+fangjianname, */
+		href:getRootPath()+"/Index/live",		
+		title:'观看直播',
+		onClose:function(){
+			$('#new_zhibo').remove();
+		}
+	});
+}
+</script>
+</body>
+</html>

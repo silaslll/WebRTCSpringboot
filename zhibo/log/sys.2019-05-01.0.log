@@ -1,0 +1,451 @@
+2019-05-01 16:27:27,422 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 5784 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 16:27:27,429 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 16:27:27,430 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 16:27:29,783 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.507 seconds (JVM running for 106500.07)
+2019-05-01 16:28:03,575 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 5784 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 16:28:03,576 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 16:28:03,577 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 16:28:06,417 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.083 seconds (JVM running for 106536.702)
+2019-05-01 16:28:13,583 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 5784 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 16:28:13,584 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 16:28:13,584 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 16:28:16,093 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.831 seconds (JVM running for 106546.377)
+2019-05-01 16:30:00,940 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 5784 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 16:30:00,941 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 16:30:00,941 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 16:30:08,841 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 5784 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 16:30:08,841 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 16:30:08,842 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 16:30:24,789 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 5784 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 16:30:24,794 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 16:30:24,804 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:09:42,239 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 5784 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:09:42,239 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:09:42,239 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:09:45,833 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 4.133 seconds (JVM running for 119836.713)
+2019-05-01 20:09:59,616 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 5784 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:09:59,618 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:09:59,631 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:10:04,047 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 5.588 seconds (JVM running for 119854.929)
+2019-05-01 20:15:13,756 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 20:15:13,779 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 20:15:13,786 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 20:16:42,444 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 20:16:42,445 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 20:16:42,459 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 20:20:47,942 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 43484 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:20:47,946 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:20:47,965 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:21:05,240 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 19.656 seconds (JVM running for 21.759)
+2019-05-01 20:21:33,293 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 43484 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:21:33,294 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:21:33,295 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:21:41,680 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 8.674 seconds (JVM running for 58.201)
+2019-05-01 20:23:56,666 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 20:23:56,821 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 20:23:56,861 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 20:24:32,269 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 43484 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:24:32,269 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:24:32,270 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:24:38,683 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 6.541 seconds (JVM running for 235.216)
+2019-05-01 20:24:45,034 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 43484 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:24:45,035 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:24:45,038 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:24:48,467 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.55 seconds (JVM running for 245.0)
+2019-05-01 20:25:11,029 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 43484 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:25:11,030 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:25:11,031 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:25:13,020 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.105 seconds (JVM running for 269.555)
+2019-05-01 20:25:13,311 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 20:25:13,312 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 20:25:13,317 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 20:27:12,685 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 20:27:12,687 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 20:27:12,694 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 20:29:07,647 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 4676 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:29:07,652 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:29:07,653 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:29:24,518 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 19.394 seconds (JVM running for 20.735)
+2019-05-01 20:29:49,826 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:29:49,829 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:29:49,830 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:30:05,153 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 17.685 seconds (JVM running for 19.02)
+2019-05-01 20:31:41,973 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 20:31:42,017 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 20:31:42,144 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 20:35:04,743 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 20:35:04,745 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 20:35:04,758 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 20:38:43,198 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 20:38:43,200 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 20:38:43,205 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 20:42:40,590 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:42:40,591 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:42:40,591 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:42:49,597 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 9.278 seconds (JVM running for 783.512)
+2019-05-01 20:42:53,509 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:42:53,509 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:42:53,509 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:43:01,876 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 8.478 seconds (JVM running for 795.793)
+2019-05-01 20:43:10,338 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:43:10,338 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:43:10,338 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:43:13,023 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.791 seconds (JVM running for 806.94)
+2019-05-01 20:43:20,204 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:43:20,204 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:43:20,205 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:43:21,972 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.021 seconds (JVM running for 815.889)
+2019-05-01 20:44:12,965 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:44:12,968 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:44:12,970 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:44:15,187 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.32 seconds (JVM running for 869.108)
+2019-05-01 20:44:19,840 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:44:19,841 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:44:19,841 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:44:21,316 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.614 seconds (JVM running for 875.238)
+2019-05-01 20:44:25,920 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:44:25,921 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:44:25,921 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:44:29,319 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.513 seconds (JVM running for 883.24)
+2019-05-01 20:44:38,016 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:44:38,017 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:44:38,017 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:44:39,595 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.707 seconds (JVM running for 893.517)
+2019-05-01 20:48:32,083 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 20:48:32,105 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 20:48:32,118 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 20:48:43,250 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 20:48:43,252 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 20:48:43,255 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 20:49:24,853 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 20:49:24,854 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 20:49:24,863 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 20:49:35,998 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 20:49:35,999 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 20:49:36,002 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 20:51:46,897 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:51:46,898 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:51:46,898 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:51:51,310 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 4.527 seconds (JVM running for 1325.26)
+2019-05-01 20:52:59,572 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:52:59,573 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:52:59,573 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:53:05,353 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:53:05,353 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:53:05,353 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:53:07,040 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.952 seconds (JVM running for 1400.995)
+2019-05-01 20:53:12,620 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:53:12,620 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:53:12,621 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:53:15,776 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.274 seconds (JVM running for 1409.732)
+2019-05-01 20:55:59,599 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:55:59,600 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:55:59,600 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:56:02,681 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.193 seconds (JVM running for 1576.647)
+2019-05-01 20:58:12,550 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:58:12,551 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:58:12,551 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:58:14,075 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.651 seconds (JVM running for 1708.049)
+2019-05-01 20:58:25,937 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:58:25,937 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:58:25,938 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:58:28,569 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.782 seconds (JVM running for 1722.545)
+2019-05-01 20:58:40,066 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:58:40,067 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:58:40,067 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:58:41,936 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.045 seconds (JVM running for 1735.913)
+2019-05-01 20:58:55,701 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:58:55,702 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:58:55,702 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:58:57,207 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.612 seconds (JVM running for 1751.184)
+2019-05-01 20:59:15,940 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:59:15,940 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:59:15,940 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:59:17,388 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.567 seconds (JVM running for 1771.367)
+2019-05-01 20:59:22,992 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 20:59:22,992 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 20:59:22,993 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 20:59:27,216 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 4.353 seconds (JVM running for 1781.196)
+2019-05-01 21:00:02,519 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:00:02,520 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:00:02,520 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:00:04,747 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.391 seconds (JVM running for 1818.729)
+2019-05-01 21:00:38,859 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:00:38,859 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:00:38,860 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:00:40,561 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.213 seconds (JVM running for 1854.545)
+2019-05-01 21:01:43,403 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:01:43,404 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:01:43,410 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:01:56,071 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:01:56,072 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:01:56,081 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:02:30,125 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:02:30,126 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:02:30,126 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:02:31,626 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.609 seconds (JVM running for 1965.617)
+2019-05-01 21:02:34,298 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:02:34,301 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:02:34,305 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:02:40,426 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:02:40,428 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:02:40,434 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:02:47,965 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:02:47,966 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:02:47,969 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:04:03,237 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:04:03,239 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:04:03,240 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:04:07,601 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 4.479 seconds (JVM running for 2061.598)
+2019-05-01 21:04:13,265 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:04:13,266 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:04:13,266 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:04:16,748 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 4.138 seconds (JVM running for 2070.745)
+2019-05-01 21:04:34,468 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:04:34,492 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:04:34,498 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:06:22,602 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:06:22,603 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:06:22,605 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:12:26,528 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:12:26,528 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:12:26,528 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:12:35,380 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:12:35,381 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:12:35,381 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:12:51,913 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:12:51,914 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:12:51,914 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:13:00,464 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:13:00,465 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:13:00,465 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:13:20,591 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:13:20,591 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:13:20,591 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:13:26,935 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:13:26,936 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:13:26,936 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:13:31,031 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 4.181 seconds (JVM running for 2625.064)
+2019-05-01 21:14:20,623 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:14:20,624 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:14:20,624 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:14:24,341 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.799 seconds (JVM running for 2678.377)
+2019-05-01 21:15:15,840 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:15:15,851 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:15:15,852 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:15:19,079 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 4.01 seconds (JVM running for 2733.12)
+2019-05-01 21:15:37,237 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:15:37,238 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:15:37,238 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:15:39,160 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.997 seconds (JVM running for 2753.202)
+2019-05-01 21:15:43,541 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:15:43,542 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:15:43,542 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:15:47,415 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.963 seconds (JVM running for 2761.457)
+2019-05-01 21:16:03,822 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:16:03,822 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:16:03,823 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:16:05,814 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.121 seconds (JVM running for 2779.857)
+2019-05-01 21:20:26,969 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:20:26,969 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:20:26,970 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:20:30,055 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.175 seconds (JVM running for 3044.115)
+2019-05-01 21:21:11,003 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:21:11,004 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:21:11,004 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:21:14,077 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.886 seconds (JVM running for 3088.14)
+2019-05-01 21:21:18,958 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:21:18,958 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:21:18,958 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:21:21,623 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.734 seconds (JVM running for 3095.686)
+2019-05-01 21:21:36,758 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:21:36,758 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:21:36,758 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:21:38,903 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.391 seconds (JVM running for 3112.967)
+2019-05-01 21:21:49,602 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:21:49,602 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:21:49,603 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:21:52,451 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.959 seconds (JVM running for 3126.516)
+2019-05-01 21:22:16,366 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:22:16,366 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:22:16,367 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:22:19,042 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.756 seconds (JVM running for 3153.109)
+2019-05-01 21:22:59,092 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:22:59,094 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:22:59,095 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:23:00,823 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.827 seconds (JVM running for 3194.893)
+2019-05-01 21:23:20,714 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:23:20,714 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:23:20,714 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:23:21,723 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.197 seconds (JVM running for 3215.794)
+2019-05-01 21:23:40,165 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:23:40,165 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:23:40,166 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:23:43,173 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.331 seconds (JVM running for 3237.245)
+2019-05-01 21:24:24,159 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:24:24,159 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:24:24,159 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:26:17,901 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:26:17,901 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:26:17,902 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:26:29,059 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:26:29,060 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:26:29,060 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:26:44,164 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:26:44,164 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:26:44,164 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:27:20,045 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:27:20,046 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:27:20,046 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:27:33,975 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:27:33,978 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:27:33,978 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:28:08,489 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:28:08,490 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:28:08,490 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:28:15,315 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 6.933 seconds (JVM running for 3509.404)
+2019-05-01 21:28:57,714 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:28:57,715 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:28:57,715 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:29:00,037 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.996 seconds (JVM running for 3554.129)
+2019-05-01 21:29:24,554 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:29:24,554 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:29:24,554 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:29:28,930 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 4.468 seconds (JVM running for 3583.024)
+2019-05-01 21:29:46,349 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:29:46,350 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:29:46,350 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:29:49,090 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.758 seconds (JVM running for 3603.186)
+2019-05-01 21:30:07,225 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:30:07,225 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:30:07,226 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:30:09,415 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.376 seconds (JVM running for 3623.512)
+2019-05-01 21:30:30,364 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:30:30,364 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:30:30,373 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:30:32,391 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.318 seconds (JVM running for 3646.489)
+2019-05-01 21:30:58,172 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:30:58,219 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:30:58,224 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:31:05,813 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:31:05,813 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:31:05,814 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:31:07,670 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.915 seconds (JVM running for 3681.771)
+2019-05-01 21:32:13,493 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:32:13,493 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:32:13,493 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:32:14,845 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.419 seconds (JVM running for 3748.951)
+2019-05-01 21:35:23,214 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:35:23,214 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:35:23,215 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:35:26,414 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.301 seconds (JVM running for 3940.532)
+2019-05-01 21:35:44,881 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:35:44,882 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:35:44,882 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:35:46,246 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.437 seconds (JVM running for 3960.365)
+2019-05-01 21:36:26,388 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:36:26,388 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:36:26,388 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:36:29,277 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.056 seconds (JVM running for 4003.398)
+2019-05-01 21:36:47,130 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:36:47,156 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:36:47,160 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:37:02,520 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:37:02,527 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:37:02,531 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:37:11,042 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:37:11,043 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:37:11,052 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:39:27,027 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:39:27,028 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:39:27,028 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:39:30,298 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.364 seconds (JVM running for 4184.431)
+2019-05-01 21:39:47,972 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:39:47,972 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:39:47,973 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:39:51,801 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 5.566 seconds (JVM running for 4205.936)
+2019-05-01 21:39:59,611 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:39:59,612 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:39:59,612 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:40:03,202 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 4.279 seconds (JVM running for 4217.337)
+2019-05-01 21:40:14,317 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:40:14,326 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:40:14,335 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:42:01,924 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:42:01,928 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:42:01,929 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:49:05,150 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:49:05,152 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:49:05,153 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:49:15,507 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:49:15,509 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:49:15,511 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:51:09,341 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:51:09,342 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:51:09,344 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:53:37,188 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:53:37,188 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:53:37,188 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:53:40,964 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 5.315 seconds (JVM running for 5035.022)
+2019-05-01 21:54:43,569 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:54:43,630 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:54:43,636 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:54:49,354 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:54:49,355 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:54:49,356 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:55:34,566 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:55:34,569 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:55:34,599 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:55:41,466 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:55:41,467 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:55:41,473 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:55:46,182 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:55:46,183 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:55:46,186 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:56:01,485 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 21:56:01,487 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 21:56:01,515 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 21:56:51,778 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 21:56:51,778 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 21:56:51,778 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 21:56:56,870 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 5.449 seconds (JVM running for 5230.899)
+2019-05-01 22:13:49,745 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 22:13:49,745 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 22:13:49,745 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 22:13:51,727 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.919 seconds (JVM running for 6245.614)
+2019-05-01 22:16:33,939 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 22:16:33,939 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 22:16:33,939 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 22:16:40,834 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 7.08 seconds (JVM running for 6414.698)
+2019-05-01 22:17:16,365 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 42016 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 22:17:16,365 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 22:17:16,366 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 22:17:21,530 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 6.101 seconds (JVM running for 6455.388)
+2019-05-01 22:20:00,530 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 22:20:00,533 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 22:20:00,573 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 22:20:49,000 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 22:20:49,024 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 22:20:49,025 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 22:21:22,468 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 22:21:22,470 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 22:21:22,473 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 22:22:28,184 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 22:22:28,185 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 22:22:28,187 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 22:23:18,264 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 43780 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-05-01 22:23:18,268 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-01 22:23:18,272 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-01 22:23:35,225 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 19.376 seconds (JVM running for 21.058)
+2019-05-01 22:24:19,828 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 22:24:19,903 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 22:24:19,938 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 22:24:57,332 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 22:24:57,334 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 22:24:57,353 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 22:27:12,596 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 22:27:12,597 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 22:27:12,602 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-05-01 22:27:40,277 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-05-01 22:27:40,278 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-01 22:27:40,283 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5

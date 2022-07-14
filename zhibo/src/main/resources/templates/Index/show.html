@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>主播开播界面</title>
+<link rel="stylesheet" type="text/css" href="/common/themes/default/easyui.css" />
+	<link rel="stylesheet" type="text/css" href="/common/themes/icon.css" />
+	<link rel="stylesheet" type="text/css" href="/common/themes/main.css" />
+	<script type="text/javascript" src="/common/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/common/js/common.js"></script>
+	<script type="text/javascript" src="/common/js/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="/common/js/easyui-lang-zh_CN.js"></script>
+		<!-- <script src="https://talkgadget.google.com/talkgadget/channel.js"></script> -->
+		<!-- <script src="http://static.acgist.com/js/app/channel.js"></script> -->
+		<style type="text/css">
+			*{margin: 0; padding: 0; overflow-y: hidden;}
+			#remoteVideo {box-shadow: 0 0 20px #000; width: 600px; display: none;}
+			#miniVideo {box-shadow: 0 0 20px #000; width: 300px; display: none;}
+			#footer {position: absolute; bottom: 0; width: 100%; height: 28px; background-color: #404040; color: #fff; font-size: 13px; font-weight: bold; line-height: 28px; text-align: center;}
+			.browser{box-shadow: 0 0 20px #000 inset; width: 400px; margin: 200px auto; padding: 20px; text-align: center; color: #fff; font-weight: bold;}
+			@media screen and (-moz-min-device-pixel-ratio:0) {#main{display: block;} .browser{display: none;}}
+		</style>
+</head>
+<body>
+	<canvas id="output" style="display:none;"></canvas>
+	<audio id="audo" loop="loop">
+	<source src="http://sc1.111ttt.cn/2017/4/05/10/298101104389.mp3" type="audio/mpeg" />
+	</audio>
+	<div id="main" style="height:100%;width:70%;float:left;">
+	<video src="" id="vi" style="width:640px;height:480px;"></video>
+	</div>
+	<div style="width:30%;height:100%;float:left;">
+				<div style="width:100%;height:50px;"> 消息：<input id="text1" type="text" />
+				<button onclick="send()">发送消息</button>
+				</div>
+				<div  style="height:600px;width:100%;background-color:#EEE9E9;overflow-y:scroll" id="message1"></div>			
+		</div>
+	<script>
+		 var backContext = document.getElementById("output").getContext("2d");
+		var back = document.getElementById("output");
+		var video = document.getElementById("vi");
+		var socket1;
+		var socket2;
+		var interval;
+		setTimeout("init()",100);
+		
+		$(function(){
+			document.getElementById("audo").play();
+			
+			socket2 = new WebSocket("ws://47.100.201.25:8092/webSocket/"+localStorage.getItem("user_no"));
+			//建立连接
+		 	socket2.onopen = function(){
+					
+			};
+             
+           //接受消息
+           socket2.onmessage = function (message) 
+           { 
+        	   document.getElementById("message1").innerHTML += message.data + '<br/>';
+           };
+             
+           //关闭连接
+           socket2.onclose = function()
+           { 
+           };
+           
+           //出现异常
+           socket2.onerror = function(event){
+        	// websocket异常
+           }
+		});
+		
+		function init(){
+			socket1 = new WebSocket("ws://47.100.201.25:8092/webSocket2");
+			//建立连接
+		 	socket1.onopen = function(){
+		 		clearInterval(interval);
+				interval = setInterval(function(){draw()},50);	
+			};
+	         
+	       //关闭连接
+	       socket1.onclose = function()
+	       { 
+	    	   init();
+	       };
+	       
+		}
+		
+       
+		function draw(){
+			backContext.drawImage(video,0,0,back.width,back.height);
+			socket1.send(back.toDataURL("image/jpeg",0.5));
+		}
+		
+		function send(){
+			var message = $("#text1").val();
+			socket2.send(message)
+		}
+		
+		
+		var success = function(stream){
+			/* document.getElementById("vi").src = window.URL.createObjectURL(stream); */
+			document.getElementById("vi").srcObject = stream;
+			document.getElementById("vi").play();
+		}
+		navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia||navigator.msGetUserMedia;
+		navigator.getUserMedia({video:true,audio:true},success,console.log);
+	</script>
+	
+	
+</body>
+</html>

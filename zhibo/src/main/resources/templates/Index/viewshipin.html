@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html style="width:100%;height:100%;">
+<head>
+<meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/common/themes/default/easyui.css" />
+	<link rel="stylesheet" type="text/css" href="/common/themes/icon.css" />
+	<link rel="stylesheet" type="text/css" href="/common/themes/main.css" />
+	<script type="text/javascript" src="/common/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/common/js/common.js"></script>
+	<script type="text/javascript" src="/common/js/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="/common/js/easyui-lang-zh_CN.js"></script>
+</head>
+<body style="margin:0px; height:100%;">
+	<form id="updateForm" style="height:30%;"  method="POST" enctype="multipart/form-data">
+	<table class="bu_table" >
+		<tr>
+			<td class="td_left">选择视频</td>
+			<td class="td_right">
+				<input class="td_input" id="shipin" name="shipin"/>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				<input type="button" class="greenbtn" onclick="sure();" value="播放"/>
+			</td>
+		</tr>
+	</table>
+	</form>
+	<div style="height:50%;width:100%;" id="csss">
+	</div>
+	
+<script type="text/javascript">
+$(function(){
+	$('#shipin').combogrid({    
+	    panelWidth:450,    
+	    idField:'id',    
+	    textField:'shipin_url',    
+	    url:getRootPath()+"/Index/get_shipin",    
+	    columns:[[    
+	        {field:'id',title:'id',width:60,hidden:true},    
+	        {field:'shipin_url',title:'视频地址',width:120},    
+	        {field:'name',title:'视频名字',width:100},    
+	        {field:'username',title:'上传人用户名',width:100}    
+	    ]]    
+	}); 
+});
+function sure(){
+	var url = $('#shipin').combogrid('getText');
+	/*  var _videoPlay = document.getElementById("video");
+	 var _videoSource = document.getElementById("videoSource"); 
+	 _videoSource.src = getRootPath()+"/"+url; 
+	 _videoPlay.play(); */
+	 var url1 = getRootPath()+"/"+url;
+	 $("#csss").html("");
+	 $("#csss").append('<video width="650" height="400" id="video" webkit-playsinline="true"  moz-playsinline="true"       preload="auto" controls="controls" loop="loop">'+ 
+				'<source id="videoSource" src="'+url1+'"  type="video/mp4">'+ 
+				'您的浏览器不支持该视频格式。'+
+			'</video>');
+}
+</script>
+</body>
+</html>

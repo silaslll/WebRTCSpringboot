@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html style="margin:0px; height:100%;">
+<head>
+<meta charset="UTF-8">
+<title>试卷管理</title>
+<link rel="stylesheet" type="text/css" href="/common/themes/default/easyui.css" />
+<link rel="stylesheet" type="text/css" href="/common/themes/icon.css" />
+<link rel="stylesheet" type="text/css" href="/common/themes/main.css" />
+<script type="text/javascript" src="/common/js/jquery.min.js"></script>
+<script type="text/javascript" src="/common/js/common.js"></script>
+<script type="text/javascript" src="/common/js/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="/common/js/easyui-lang-zh_CN.js"></script>
+</head>
+<body style="margin:0px; height:100%;">
+	<div id='con' style="margin:0px; height:100%;">
+	<div>
+		 <div id="tb" style="background:#fff;width:100%;padding-top:5px;padding-bottom:5px;">
+			<form id="search_form">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+				  <tr>
+					<td>
+						<input id="username" name="username" class="easyui-textbox"  data-options="prompt:'请输入用户名称'">  
+						<input type="button" class="greenbtn"  onclick="search();" value="查询"/>
+						<input type="button" class="redbtn" onClick="clean();" value="清空条件"/>
+					<!-- 	<input type="button" class="bluebtn" onClick="zhuce();" value="新建用户"> -->
+					</td>
+				  </tr>
+			</table>
+			</form>
+		</div>
+	 </div>
+		
+		<div  style="margin:0px; height:100%">
+             <div id='user_list' style="margin:0px; height:91%;">	</div>			
+        </div>
+</div>
+<script type="text/javascript">
+
+
+$(function(){
+	var user_no = localStorage.getItem("user_no");
+	var url = "";
+	if(user_no!="admin"){
+		url = getRootPath()+"/Index/get_user_list?username="+user_no;
+	}else{
+		url = getRootPath()+"/Index/get_user_list";
+	}
+	//初始化列表数据
+		//数据表格
+	    $("#user_list").datagrid({
+	    	url:url,
+	    	rownumbers:true,
+			fitColumns:true,
+			pagination:true,
+		    pageSize:10,
+		    pageList:[10,20,30],
+	        width:'100%',
+			toolbar:'#tb',
+			 columns:[[ 
+	            {field:'id',title:'id',hidden:true},
+	            {field:'username',title:'用户名',width:300,align:'center'},  
+	            {field:'password',title:'密码',width:100,align:'center'},  
+	            {field:'leixing',title:'类型',width:100,align:'center'},    
+	            {field:'caozuo',title:'操作',width:100,align:'center',formatter:function(value,row,index){
+	            	if(row.username!="admin"){
+						return '<button  class="bluebtn" onclick="edit_user('+row.id+',1);" >编辑</button>' + 
+					    	' <button   class="redbtn" onclick="delete_user('+row.id+');" >删除</button>' ; 
+	            	}else{
+						;
+	            	}
+				}},					
+	        ]]		
+		});
+});
+
+//新建
+function new_user(flag) {  
+	$("#user_list").datagrid('unselectAll');
+	$('body').append("<div id='new_user_apply'></div>");
+	$('body').append("<input id='user_flag' type='hidden' value='"+flag+"'/>");
+	$("#new_user_apply").dialog({
+		top:0,
+		draggable:false,
+		width: '100%',
+		height:'100%',
+		closed:false,
+		cache: false,
+		modal: true,
+		href:getRootPath()+"/Index/new_user",
+		title:'新建试题',
+		onClose:function(){
+			$('#new_user_apply').remove();
+			$("#user_flag").remove();
+		}
+	});
+}
+
+//编辑配件
+function edit_user(id,flag){ 
+	$("#user_list").datagrid('unselectAll');
+	$("#user_list").datagrid('selectRecord',id);
+	$('body').append("<div id='edit_user_apply'></div>");
+	$('body').append("<input id='user_flag' type='hidden' value='"+flag+"'/>");
+	$("#edit_user_apply").dialog({
+		top:0,
+		draggable:false,
+		width: '100%',
+		height:'100%',
+		closed:false,
+		cache: false,
+		modal: true,
+		href:getRootPath()+"/Index/new_user",
+		title:'编辑试题',
+		onClose:function(){
+			$('#edit_user_apply').remove();
+			$("#user_flag").remove();
+		}
+	});
+    
+}
+
+//配件单删除
+function delete_user(id){
+	$.messager.confirm('确认对话框', '您确定要删除吗？',function(r){
+    	if (r){
+	       var url = getRootPath()+"/Index/del_user";
+	       $.post(url,{"id":id},function(data){
+	    	   if(data.status==1){
+	    			$.messager.alert('提示',data.info,'info'); 
+	    			$("#user_list").datagrid('reload');
+	    		}else{
+	    			$.messager.alert('提示',data.info,'info'); 
+	    		}
+	       });
+	    }
+    });
+}
+	
+//查询按钮
+function search(){
+	$("#user_list").datagrid('load', serializeObject($('#search_form').form()));
+}
+
+//清空条件
+function clean(){
+	$("#user_list").datagrid('load', {});
+	$('#search_form').form('clear');
+}
+		
+function zhuce(){
+	$('body').append('<div id="div_zhuce"></div>');
+	$('#div_zhuce').dialog({
+		top:0,
+		title: '新建用户',	     
+		href: getRootPath()+"/Index/zhuce",
+		width: '50%',
+		height: '40%', 
+		modal: true,
+		onClose:function(){
+			$("#div_zhuce").remove();
+		}
+	});	
+}
+
+
+</script>
+</body>
+</html>

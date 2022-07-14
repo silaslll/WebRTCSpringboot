@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html style="width:100%;height:100%;">
+<head>
+<meta charset="UTF-8">
+ <title>登录界面</title>
+<head>
+	<link rel="stylesheet" type="text/css" href="/common/themes/default/easyui.css" />
+	<link rel="stylesheet" type="text/css" href="/common/themes/icon.css" />
+	<link rel="stylesheet" type="text/css" href="/common/themes/main.css" />
+	<script type="text/javascript" src="/common/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/common/js/common.js"></script>
+	<script type="text/javascript" src="/common/js/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="/common/js/easyui-lang-zh_CN.js"></script>
+<title>登陆界面</title>
+	<style type="text/css">
+		p,h1,a{
+			color:blue
+		}
+		body{ 
+		  background:url(/img/logobg.jpeg) no-repeat center center fixed;
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		}
+		
+		.bluebtn{
+			border-radius:5px;
+			background-color:blue;
+			color:white;
+			width:60px;
+		}
+		
+		.redbtn{
+			border-radius:5px;
+			background-color:red;
+			color:white;
+			width:60px;
+		}
+	</style>
+</head>
+<body style="width:100%;height:100%;">
+<div align="center" style="width:100%;height:100%;">
+	<div style="height:400px;max-width:500px;margin-top:15%;">
+		  		
+			  <p><h1>远程手术指导及示教系统</h1></p>
+			  <br><br>	  <br><br>
+			  <p>用户名：<input type="text" name="user_no" id="user_no" size="40"></p>
+			  <p>密码&nbsp;&nbsp;&nbsp;：<input type="password" id="password" name="password" size="40"></p>
+			  <p><input type="submit" class="bluebtn" value="确定" onclick="be_sure();">
+			     <input type="reset" class="redbtn" value="重置" onclick="reset();">
+			     <a href="#"  style="margin-left:70px;" onclick="zhuce();">注册</a>
+			     </p>
+	</div>
+	<div align="right" style="max-width:300px;height:20px">
+		<p></p>
+	</div>
+</div>
+<script type="text/javascript">
+	function be_sure(){
+		var user_no = $("#user_no").val();
+		var password = $("#password").val();
+		if(user_no&&password){
+			var url = getRootPath()+"/Index/get_user";
+			$.post(url,{"username":user_no,"password":password},function(data){
+				if(data.status==1){
+					localStorage.setItem("user_no", user_no);
+					window.location.href = getRootPath()+"/Index/get_main";
+				}else{
+					alert("用户名或者密码错误");		
+				}
+			});
+		}else{
+			alert("请先补全信息");	
+		}
+	}
+	
+	function reset(){
+		$("#user_no").val("");
+		$("#password").val("");
+	} 
+	
+	function zhuce(){
+		$('body').append('<div id="div_zhuce"></div>');
+		$('#div_zhuce').dialog({
+			top:0,
+			title: '注册新用户',	     
+			href: getRootPath()+"/Index/zhuce",
+			width: '50%',
+			height: '40%', 
+			modal: true,
+			onClose:function(){
+				$("#div_zhuce").remove();
+			}
+		});	
+	}
+</script>
+</body>
+</html>

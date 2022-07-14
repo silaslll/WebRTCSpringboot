@@ -1,0 +1,135 @@
+/**
+ *公共表格样式 李亚峰 2017-03-20
+ *表格table的class统一命名为bu_table，不可编辑的列td的class命名为td_left,可编辑的列td命名为td_right
+ *td_center可作为表头样式，td_select位单选框或多选框样式
+ */
+.bu_table{background:#B5D0FF;width:98%;height:80%;margin-top:5px;}
+.bu_table tr{line-height:25px;}
+.bu_table td{background:#fff;line-height:25px;padding-left:10px;padding-right:10px;padding-top:2px;padding-bottom:2px;font-size:12px;}
+.bu_table .td_right{font-size:12px;text-align:left;padding-left:15px;}
+.bu_table .td_left{text-align:right;background-color:#E0ECFF;font-size:12px;line-height:30px;padding-left:15px;}
+.bu_table .td_center{text-align:center;background-color:#E0ECFF;font-size:12px;line-height:30px;padding-left:5px;}
+.bu_table .td_right input{ }
+.bu_table .td_select{text-align:center;background-color:#E0ECFF;font-size:12px;line-height:30px;padding-left:5px;}
+.bu_table .td_right .blueinput{border:1px solid #95B8E7;height:22px;width:192px;font-size:12px;padding-left:5px;line-height:24px;border-radius:5px;}
+
+
+/*备注框样式 */
+.textarea{border:1px solid #95B8E7;font-size:12px;border-radius:5px;width:99%;height:90%}
+.submit{color:#fff;font-size:12px;width:80px;height:29px;background: #2984a4;background: -webkit-linear-gradient(top,#2984a4 0,#24748f 100%);
+	background: -moz-linear-gradient(top,#2984a4 0,#24748f 100%);background: -o-linear-gradient(top,#2984a4 0,#24748f 100%);
+	background: linear-gradient(to bottom,#2984a4 0,#24748f 100%);filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#2984a4,endColorstr=#24748f,GradientType=0);border:none;}
+.row1{margin-top:2px}
+.add_button{background:#2E9DEF;border:1px solid #0C60A1;border-radius:5px;text-align:center;color:#fff;height:23px;line-height:23px;text-decoration:none;margin:5px 0;margin-left:10px;display:block;}
+.w60{width:60px;}
+.mar5{margin-top:5px;}
+/*单独设置的DATAGRID的效果*/
+.datagrid-header-row td{height:26px;line-height:26px;}
+.datagrid-row td{height:26px;line-height:26px;}
+.datagrid-row td a{color:#0E2D5F;}
+/*datagrid头部的搜索*/
+.searchleft{float:left;width:520px;font-size:12px;}
+.searchright{float:right;padding-bottom:10px;font-size:12px;text-align:right}
+
+/*设置几种状态的效果*/
+.rentstatus{height:18px;width:30px;margin-right:4px;margin-left:4px;}
+.onrent{background-color:green;float:left}
+.onrentstop{background-color:yellow;float:left}
+.onrentservice{background-color:red;float:left}
+.onhistory{background-color:blue;float:left}
+.onhistoryservice{background-color:gray;float:left}
+.fl{float:left;}
+
+/*二级层次的TAG样式 ZWY*/
+#con { FONT-SIZE: 12px; MARGIN: 0px auto; WIDTH: 100%;}
+#tags { PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH:100%; PADDING-TOP: 0px; HEIGHT:33px;line-height:33px;background:#EAEAEA;}
+#tags LI { FLOAT: left; MARGIN-RIGHT: 1px; LIST-STYLE-TYPE:none; HEIGHT: 33px;line-height:33px;}
+#tags LI A {PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 0px; COLOR: #999; 
+LINE-HEIGHT: 33px; PADDING-TOP: 0px; HEIGHT: 33px; TEXT-DECORATION:none}
+#tags LI.emptyTag {BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 4px}
+#tags LI.selectTag {BACKGROUND-POSITION: left top; MARGIN-BOTTOM: -2px; POSITION: relative; HEIGHT: 33px;background:#ccc;color:#000;font-weight:bold;}
+#tags LI.selectTag A {BACKGROUND-POSITION: right top; COLOR: #000; LINE-HEIGHT: 33px; HEIGHT: 33px}
+#tagContent { PADDING-RIGHT: 1px; BORDER-top: #0D61A1 2px solid; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px;  PADDING-TOP:1px;  BACKGROUND-COLOR: #fff}
+.tagContent {PADDING-RIGHT: 2px; DISPLAY: none; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; WIDTH: 100%; COLOR: #474747; PADDING-TOP: 2px;}
+#tagContent DIV.selectTag {DISPLAY: block}
+
+
+.confirm_table{background:#B5D0FF;width:98%;height:80%;margin-top:5px;}
+.confirm_table tr{line-height:25px;}
+.confirm_table td{background:#fff;line-height:25px;padding-left:10px;padding-right:10px;padding-top:2px;padding-bottom:2px;font-size:12px;}
+.confirm_table th{font-size:14px;background: #E0ECFF url(tj1.jpg) repeat-x;line-height:25px;}
+.confirm_table .td_right{font-size:12px;text-align:left;padding-left:15px;}
+.confirm_table .td_left{text-align:right;background-color:#E0ECFF;font-size:12px;line-height:30px;padding-left:15px;}
+.confirm_table .td_right .input{width:230px; }
+.blueinput{border:1px solid #95B8E7;height:22px;width:230px;font-size:12px;padding-left:5px;line-height:24px;border-radius:5px;}
+.titleth{font-size:14px;background: #B8E5FC url(tj1.jpg) repeat-x;line-height:25px;font-weight:bold;}
+.headtiteth{font-size:25px;background: #B8E5FC url(tj1.jpg) repeat-x;line-height:40px;font-weight:bold;}
+
+.add{background: url('icons/add.png') no-repeat;width:59px;height:24px;border:none;cursor:pointer;}
+.del{background: url('icons/del.png') no-repeat;width:59px;height:24px;border:none;cursor:pointer;}
+
+.bgeo{background:#E0ECFF;font-size:12px;font-weight:normal;}
+.cols1{width:155px;border:0px;text-align:center;background:#E0ECFF;}
+.cols2{width:260px;border:0px;text-align:center;background:#E0ECFF;}
+
+.confirm_table1{background:#B5D0FF;width:98%;height:80%;margin-top:5px;}
+.confirm_table1 tr{line-height:25px;}
+.confirm_table1 td{background:#fff;line-height:25px;padding-left:10px;padding-right:10px;padding-top:2px;padding-bottom:2px;font-size:12px;}
+.confirm_table1 th{font-size:14px;background: #E0ECFF;line-height:25px;}
+.confirm_table1 .td_right{font-size:12px;text-align:left;padding-left:15px;}
+.confirm_table1 .td_left{text-align:right;background-color:#E0ECFF;font-size:12px;line-height:30px;padding-left:15px;}
+.confirm_table1 .td_center{text-align:center;background-color:#E0ECFF;font-size:12px;line-height:30px;padding-left:15px;}
+.confirm_table1 .td_right .input{width:230px; }
+
+/*统一按钮定义 两个字添加的按钮*/
+.addbtn{background:#3399FF;border:1px solid #32ABED;width:59px;height:24px;color:#fff;text-align:center;border-radius:5px;}
+.addbtn:hover{background:#0078F0;border:1px solid #32ABED;width:59px;height:24px;color:#fff;text-align:center}
+
+/*统一按钮定义 两个字删除返回按钮*/
+.delbtn{background-color:#FF6666;border:none;width:59px;height:24px;color:#fff;text-align:center;border-radius:5px;}
+.delbtn:hover{background:#CC3300;border:1px solid #CC0000;width:59px;height:24px;color:#fff;text-align:center}
+
+/*统一按钮定义 不可用按钮*/
+.disablebtn{background-color:#999;border:none;height:24px;color:#fff;text-align:center;border-radius:5px;}
+
+/*统一按钮定义 多字普通操作按钮*/
+.bluebtn{background:#3399FF;border:1px solid #32ABED;height:24px;color:#fff;padding:0 10px;text-align:center;border-radius:5px;}
+.bluebtn:hover{background:#0078F0;border:1px solid #32ABED;height:24px;color:#fff;text-align:center}
+
+/*统一按钮定义 多字搜索或导出类型操作按钮*/
+.greenbtn{background:#22BF7C;border:1px solid #22BF7C;height:24px;color:#fff;padding:0 10px;text-align:center;border-radius:5px;}
+.greenbtn:hover{background:#1C9964;border:1px solid #22BF7C;height:24px;color:#fff;text-align:center}
+
+/*统一按钮定义 多字取消删除类按钮*/
+.redbtn{background:#FF6666;border:1px solid #CC0000;height:24px;color:#fff;padding:0 10px;text-align:center;border-radius:5px;}
+.redbtn:hover{background:#CC3300;border:1px solid #CC0000;height:24px;color:#fff;text-align:center}
+
+/*input框的样式 LYF*/
+.td_input{border:1px solid #95B8E7;height:22px;width:85%;font-size:12px;padding-left:5px;line-height:24px;border-radius:5px;}
+
+.checkreport a{font-size:13px;text-decoration:none;color:#333;}
+.checkreportname{font-size:14px;background:#F3F3F3;line-height:35px;color:#333;}
+.checkborder{border:1px solid #95B8E7;width:200px;height:200px;}
+.checkborder img{width:200px;height:200px;display:block;}  
+.linone{list-style-type:none;float:left}
+
+
+/*设置打印样式*/
+.print_table .td_right .blueinput,.print_table tr,.print_table td{border:1px solid #95B8E7;}
+@media   print {
+	.noprint{display:none;} 
+	html{margin:0 auto;    
+	          width: 1123px;
+	          height: 794px;
+	     }
+  	}
+}
+
+.print_table{background:#B5D0FF;width:98%;height:90%;margin-top:0px;}
+.print_table td{background:#fff;padding-left:10px;padding-right:10px;padding-top:2px;padding-bottom:2px;font-size:12px;}
+.print_table .td_right{font-size:12px;text-align:left;padding-left:15px;}
+.print_table .td_left{text-align:right;background-color:#E0ECFF;font-size:12px;padding-left:15px;}
+.print_table .td_center{text-align:center;background-color:#E0ECFF;font-size:12px;padding-left:5px;}
+.print_table .td_right input{ }
+.print_table .td_select{text-align:center;background-color:#E0ECFF;font-size:12px;padding-left:5px;}
+.print_table .td_right .blueinput{border:1px solid #95B8E7;width:192px;font-size:12px;padding-left:5px;border-radius:1px;}

@@ -1,0 +1,45 @@
+2019-05-24 08:50:07,515 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-24 08:50:07,537 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String), 11(String)
+2019-05-24 08:50:07,541 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-24 08:50:07,976 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-24 08:50:07,978 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-24 08:50:07,979 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-24 08:50:17,486 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 and username like CONCAT('%',?,'%') 
+2019-05-24 08:50:17,487 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-24 08:50:17,491 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-24 08:50:22,626 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-24 08:50:22,640 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-24 08:50:22,642 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-05-24 08:50:25,292 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-24 08:50:25,294 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-24 08:50:25,319 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-05-24 08:50:34,790 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-24 08:50:34,791 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-24 08:50:34,796 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-24 08:52:09,641 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-24 08:52:09,642 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-24 08:52:09,644 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-05-24 08:52:23,319 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-24 08:52:23,320 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String), 22(String)
+2019-05-24 08:52:23,323 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-24 08:52:23,562 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-24 08:52:23,563 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String)
+2019-05-24 08:52:23,565 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-24 08:52:48,519 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-24 08:52:48,520 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-24 08:52:48,523 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-24 08:52:59,862 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-24 08:52:59,863 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-24 08:52:59,864 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2019-05-24 08:53:15,987 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-24 08:53:15,991 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String), 123456(String)
+2019-05-24 08:53:15,995 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-24 08:53:16,442 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-24 08:53:16,450 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2019-05-24 08:53:16,451 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-24 08:53:19,643 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where 1=1 
+2019-05-24 08:53:19,646 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-24 08:53:19,647 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 9
+2019-05-24 08:53:33,320 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-24 08:53:33,321 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-24 08:53:33,323 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2

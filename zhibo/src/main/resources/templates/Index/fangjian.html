@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html style="margin:0px; height:100%;">
+<head>
+<meta charset="UTF-8">
+<title>试卷管理</title>
+<link rel="stylesheet" type="text/css" href="/common/themes/default/easyui.css" />
+<link rel="stylesheet" type="text/css" href="/common/themes/icon.css" />
+<link rel="stylesheet" type="text/css" href="/common/themes/main.css" />
+<script type="text/javascript" src="/common/js/jquery.min.js"></script>
+<script type="text/javascript" src="/common/js/common.js"></script>
+<script type="text/javascript" src="/common/js/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="/common/js/easyui-lang-zh_CN.js"></script>
+</head>
+<body style="margin:0px; height:100%;">
+	<div id='con' style="margin:0px; height:100%;">
+	<div>
+		 <div id="tb" style="background:#fff;width:100%;padding-top:5px;padding-bottom:5px;">
+			<form id="search_form">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+				  <tr>
+					<td>
+						<input id="fangjianname" name="fangjianname" class="easyui-textbox"  data-options="prompt:'请输入房间名称'">  
+						<input type="button" class="greenbtn"  onclick="search();" value="查询"/>
+						<input type="button" class="redbtn" onClick="clean();" value="清空条件"/>
+						<input type="button" class="bluebtn" onClick="new_fangjian(0);" value="新建房间">
+					</td>
+				  </tr>
+			</table>
+			</form>
+		</div>
+	 </div>
+		
+		<div  style="margin:0px; height:100%">
+             <div id='fangjian_list' style="margin:0px; height:91%;">	</div>			
+        </div>
+</div>
+<script type="text/javascript">
+
+
+$(function(){
+	
+	//初始化列表数据
+		//数据表格
+	    $("#fangjian_list").datagrid({
+	    	url:getRootPath()+"/Index/get_fangjian_list",
+	    	rownumbers:true,
+			fitColumns:true,
+			pagination:true,
+		    pageSize:10,
+		    pageList:[10,20,30],
+	        width:'100%',
+			toolbar:'#tb',
+			 columns:[[ 
+	            {field:'id',title:'id',hidden:true},
+	            {field:'fangjianname',title:'房间名称',width:300,align:'center'},  
+	            {field:'title',title:'房间标题',width:100,align:'center'}, 
+	            {field:'username',title:'主播用户名',width:100,align:'center'}, 
+	            {field:'caozuo',title:'操作',width:100,align:'center',formatter:function(value,row,index){
+	            	if(row.fangjianname!="admin"){
+						return '<button  class="bluebtn" onclick="edit_fangjian('+row.id+',1);" >编辑</button>' + 
+					    	' <button   class="redbtn" onclick="delete_fangjian('+row.id+');" >删除</button>' ; 
+	            	}else{
+						;
+	            	}
+				}},					
+	        ]]		
+		});
+});
+
+//新建房间
+function new_fangjian(flag) {  
+	$("#fangjian_list").datagrid('unselectAll');
+	$('body').append("<div id='new_fangjian_apply'></div>");
+	$('body').append("<input id='fangjian_flag' type='hidden' value='"+flag+"'/>");
+	$("#new_fangjian_apply").dialog({
+		top:0,
+		draggable:false,
+		width: '100%',
+		height:'100%',
+		closed:false,
+		cache: false,
+		modal: true,
+		href:getRootPath()+"/Index/new_fangjian",
+		title:'新建房间',
+		onClose:function(){
+			$('#new_fangjian_apply').remove();
+			$("#fangjian_flag").remove();
+		}
+	});
+}
+
+//编辑配件
+function edit_fangjian(id,flag){ 
+	$("#fangjian_list").datagrid('unselectAll');
+	$("#fangjian_list").datagrid('selectRecord',id);
+	$('body').append("<div id='edit_fangjian_apply'></div>");
+	$('body').append("<input id='fangjian_flag' type='hidden' value='"+flag+"'/>");
+	$("#edit_fangjian_apply").dialog({
+		top:0,
+		draggable:false,
+		width: '100%',
+		height:'100%',
+		closed:false,
+		cache: false,
+		modal: true,
+		href:getRootPath()+"/Index/new_fangjian",
+		title:'编辑房间',
+		onClose:function(){
+			$('#edit_fangjian_apply').remove();
+			$("#fangjian_flag").remove();
+		}
+	});
+    
+}
+
+//配件单删除
+function delete_fangjian(id){
+	$.messager.confirm('确认对话框', '您确定要删除吗？',function(r){
+    	if (r){
+	       var url = getRootPath()+"/Index/del_fangjian";
+	       $.post(url,{"id":id},function(data){
+	    	   if(data.status==1){
+	    			$.messager.alert('提示',data.info,'info'); 
+	    			$("#fangjian_list").datagrid('reload');
+	    		}else{
+	    			$.messager.alert('提示',data.info,'info'); 
+	    		}
+	       });
+	    }
+    });
+}
+	
+//查询按钮
+function search(){
+	$("#fangjian_list").datagrid('load', serializeObject($('#search_form').form()));
+}
+
+//清空条件
+function clean(){
+	$("#fangjian_list").datagrid('load', {});
+	$('#search_form').form('clear');
+}
+
+</script>
+</body>
+</html>

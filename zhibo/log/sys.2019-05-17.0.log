@@ -1,0 +1,21 @@
+2019-05-17 11:44:47,743 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-17 11:44:47,879 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123(String), 1234(String)
+2019-05-17 11:44:48,118 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-17 11:45:14,903 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-17 11:45:14,906 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123456(String)
+2019-05-17 11:45:14,909 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-17 11:45:14,912 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into user (username,password,leixing) values(?,?,?) 
+2019-05-17 11:45:14,913 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123456(String), 123456(String), 普通用户(String)
+2019-05-17 11:45:14,923 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-17 11:45:25,628 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-17 11:45:25,631 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123456(String), 123456(String)
+2019-05-17 11:45:25,657 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-17 11:48:59,110 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-17 11:48:59,113 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123456(String), (String)
+2019-05-17 11:48:59,116 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-17 11:49:07,913 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-17 11:49:07,914 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123456(String), 123456(String)
+2019-05-17 11:49:07,921 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-17 16:08:07,088 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-17 16:08:07,091 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: (String), 11(String)
+2019-05-17 16:08:07,094 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0

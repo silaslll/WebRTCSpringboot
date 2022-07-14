@@ -1,0 +1,663 @@
+2019-05-22 11:14:54,808 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 11:14:54,816 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String), 123456(String)
+2019-05-22 11:14:54,819 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 11:15:02,954 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where 1=1 
+2019-05-22 11:15:02,956 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 11:15:02,978 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-05-22 11:24:56,599 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:24:56,599 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:24:56,600 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:25:04,575 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 8.092 seconds (JVM running for 478830.587)
+2019-05-22 11:25:38,708 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:25:38,708 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:25:38,708 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:25:47,838 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 9.229 seconds (JVM running for 478873.85)
+2019-05-22 11:26:00,088 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:26:00,089 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:26:00,091 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:26:03,119 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.137 seconds (JVM running for 478889.131)
+2019-05-22 11:26:08,043 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:26:08,044 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:26:08,044 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:26:12,352 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 5.226 seconds (JVM running for 478898.364)
+2019-05-22 11:26:22,247 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:26:22,247 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:26:22,248 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:26:26,374 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 4.214 seconds (JVM running for 478912.387)
+2019-05-22 11:26:38,189 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:26:38,189 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:26:38,190 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:26:40,508 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.448 seconds (JVM running for 478926.52)
+2019-05-22 11:27:16,478 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:27:16,479 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:27:16,479 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:27:19,932 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.575 seconds (JVM running for 478965.944)
+2019-05-22 11:27:32,118 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:27:32,119 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:27:32,119 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:27:34,393 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.437 seconds (JVM running for 478980.405)
+2019-05-22 11:27:52,757 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:27:52,758 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:27:52,758 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:27:57,946 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 5.286 seconds (JVM running for 479003.959)
+2019-05-22 11:28:08,825 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:28:08,831 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:28:08,833 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:28:10,678 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.941 seconds (JVM running for 479016.69)
+2019-05-22 11:29:05,679 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:29:05,680 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:29:05,680 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:29:07,654 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.126 seconds (JVM running for 479073.666)
+2019-05-22 11:29:13,578 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:29:13,579 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:29:13,579 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:29:15,417 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.955 seconds (JVM running for 479081.429)
+2019-05-22 11:38:19,333 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 11:38:19,336 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String), 22(String)
+2019-05-22 11:38:19,341 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 11:38:19,998 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 11:38:20,000 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String)
+2019-05-22 11:38:20,001 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 11:39:06,125 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 11:39:06,129 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String), 22(String)
+2019-05-22 11:39:06,132 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 11:39:06,588 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 11:39:06,589 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String)
+2019-05-22 11:39:06,592 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 11:39:12,585 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where 1=1 
+2019-05-22 11:39:12,593 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 11:39:12,605 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-05-22 11:40:55,940 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:40:55,940 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:40:55,942 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:41:00,178 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 4.336 seconds (JVM running for 479786.19)
+2019-05-22 11:42:36,342 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 11:42:36,344 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String)
+2019-05-22 11:42:36,346 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 11:42:38,496 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where 1=1 and username like CONCAT('%',?,'%') 
+2019-05-22 11:42:38,498 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String)
+2019-05-22 11:42:38,500 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 11:42:54,424 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 11:42:54,426 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String), 123456(String)
+2019-05-22 11:42:54,428 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 11:42:54,872 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 11:42:54,874 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2019-05-22 11:42:54,877 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 11:42:57,005 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where 1=1 and username like CONCAT('%',?,'%') 
+2019-05-22 11:42:57,006 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null(String)
+2019-05-22 11:42:57,010 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-22 11:47:19,941 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:47:19,941 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:47:19,942 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:47:21,938 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.229 seconds (JVM running for 480167.95)
+2019-05-22 11:48:55,218 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:48:55,218 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:48:55,219 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:48:56,709 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.581 seconds (JVM running for 480262.721)
+2019-05-22 11:49:12,908 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:49:12,909 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:49:12,909 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:49:14,538 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.687 seconds (JVM running for 480280.551)
+2019-05-22 11:50:05,212 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:50:05,213 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:50:05,213 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:50:07,824 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.826 seconds (JVM running for 480333.835)
+2019-05-22 11:50:27,663 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:50:27,663 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:50:27,664 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:50:30,800 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.26 seconds (JVM running for 480356.813)
+2019-05-22 11:50:49,458 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:50:49,459 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:50:49,459 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:50:52,287 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.948 seconds (JVM running for 480378.299)
+2019-05-22 11:52:10,236 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 11:52:10,238 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String), 22(String)
+2019-05-22 11:52:10,242 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 11:52:11,166 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 11:52:11,168 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String)
+2019-05-22 11:52:11,170 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 11:52:14,064 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where 1=1 
+2019-05-22 11:52:14,143 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 11:52:14,191 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-05-22 11:55:12,923 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:55:12,924 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:55:12,924 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:55:15,203 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.427 seconds (JVM running for 480641.213)
+2019-05-22 11:55:29,952 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:55:29,952 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:55:29,952 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:55:31,667 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.809 seconds (JVM running for 480657.678)
+2019-05-22 11:55:46,525 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:55:46,526 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:55:46,526 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:55:48,014 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 1.55 seconds (JVM running for 480674.024)
+2019-05-22 11:57:09,940 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 11:57:09,942 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String), 22(String)
+2019-05-22 11:57:09,948 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 11:57:10,754 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 11:57:10,756 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String)
+2019-05-22 11:57:10,758 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 11:57:12,844 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where 1=1 
+2019-05-22 11:57:12,847 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 11:57:12,849 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-05-22 11:58:34,786 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 11:58:34,787 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 11:58:34,787 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 11:58:37,982 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.273 seconds (JVM running for 480843.99)
+2019-05-22 13:17:13,565 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 13:17:13,565 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 13:17:13,565 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 13:17:18,114 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 4.63 seconds (JVM running for 485564.142)
+2019-05-22 13:17:41,576 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 13:17:41,578 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String)
+2019-05-22 13:17:41,583 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:17:47,817 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 13:17:47,818 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String), 22(String)
+2019-05-22 13:17:47,820 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:17:48,378 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 13:17:48,379 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String)
+2019-05-22 13:17:48,380 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:17:50,665 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where 1=1 and username like CONCAT('%',?,'%') 
+2019-05-22 13:17:50,666 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String)
+2019-05-22 13:17:50,668 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:17:54,537 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where 1=1 and username like CONCAT('%',?,'%') 
+2019-05-22 13:17:54,538 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String)
+2019-05-22 13:17:54,540 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:18:00,232 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where 1=1 and username like CONCAT('%',?,'%') 
+2019-05-22 13:18:00,233 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String)
+2019-05-22 13:18:00,234 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:18:13,552 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 13:18:13,553 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String), 123456(String)
+2019-05-22 13:18:13,559 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:18:14,147 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 13:18:14,149 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2019-05-22 13:18:14,151 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:18:16,189 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where 1=1 and username like CONCAT('%',?,'%') 
+2019-05-22 13:18:16,189 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2019-05-22 13:18:16,191 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:20:45,524 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 13:20:45,526 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String), 123456(String)
+2019-05-22 13:20:45,529 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:20:46,147 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 13:20:46,152 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2019-05-22 13:20:46,154 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:20:48,358 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where 1=1 
+2019-05-22 13:20:48,360 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 13:20:48,366 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 4
+2019-05-22 13:20:54,050 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 13:20:54,051 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String), 22(String)
+2019-05-22 13:20:54,059 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:20:54,627 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 13:20:54,629 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String)
+2019-05-22 13:20:54,630 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:20:56,418 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where 1=1 and username like CONCAT('%',?,'%') 
+2019-05-22 13:20:56,419 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String)
+2019-05-22 13:20:56,422 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:47:06,160 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2976 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 13:47:06,161 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 13:47:06,161 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 13:47:09,002 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.93 seconds (JVM running for 487355.03)
+2019-05-22 13:48:24,071 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 13:48:24,075 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String), 22(String)
+2019-05-22 13:48:24,078 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:48:29,132 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 13:48:29,133 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String)
+2019-05-22 13:48:29,135 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:48:36,530 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 13:48:36,531 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String), 11(String)
+2019-05-22 13:48:36,535 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:48:37,799 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 13:48:37,800 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 13:48:37,805 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:48:46,874 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 13:48:46,875 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 13:48:46,878 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:52:00,106 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 13:52:00,107 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 13:52:00,109 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:52:17,848 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 13:52:17,849 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String), 11(String)
+2019-05-22 13:52:17,851 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:52:18,369 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 13:52:18,370 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 13:52:18,371 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:52:58,245 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2224 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 13:52:58,252 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 13:52:58,262 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 13:53:21,742 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 26.826 seconds (JVM running for 30.331)
+2019-05-22 13:53:46,139 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 13:53:46,219 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String), 11(String)
+2019-05-22 13:53:46,286 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:53:47,334 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 13:53:47,336 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 13:53:47,341 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:53:52,196 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 13:53:52,199 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 13:53:52,209 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:55:58,049 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 13:55:58,052 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String), 11(String)
+2019-05-22 13:55:58,057 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:55:58,570 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 13:55:58,571 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 13:55:58,573 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:55:59,515 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 13:55:59,517 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 13:55:59,521 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:56:27,811 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 5660 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 13:56:27,821 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 13:56:27,835 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 13:56:50,113 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 25.14 seconds (JVM running for 27.156)
+2019-05-22 13:57:03,235 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 13:57:03,312 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String), 11(String)
+2019-05-22 13:57:03,373 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:57:04,228 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 13:57:04,229 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 13:57:04,234 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 13:57:06,313 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 13:57:06,314 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 13:57:06,323 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:03:51,716 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 1068 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 14:03:51,723 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 14:03:51,730 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 14:04:13,115 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 24.75 seconds (JVM running for 27.298)
+2019-05-22 14:04:21,008 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 14:04:21,105 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String), 11(String)
+2019-05-22 14:04:21,166 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:04:22,464 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 14:04:22,465 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 14:04:22,470 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:04:23,866 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 14:04:23,868 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 14:04:23,870 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:21:50,873 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 5380 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 14:21:50,879 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 14:21:50,886 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 14:22:13,540 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 24.994 seconds (JVM running for 27.072)
+2019-05-22 14:23:00,653 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 14:23:00,726 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String), 11(String)
+2019-05-22 14:23:00,787 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:23:02,306 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 14:23:02,310 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 14:23:02,314 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:23:09,433 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 14:23:09,435 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 14:23:09,438 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:25:20,286 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 1624 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 14:25:20,298 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 14:25:20,305 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 14:25:42,189 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 23.97 seconds (JVM running for 26.08)
+2019-05-22 14:25:56,792 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 14:25:56,880 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String), 11(String)
+2019-05-22 14:25:56,949 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:25:57,755 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 14:25:57,757 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 14:25:57,761 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:26:00,378 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 14:26:00,379 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 14:26:00,381 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:30:14,274 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 1624 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 14:30:14,275 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 14:30:14,275 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 14:30:22,128 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 8.122 seconds (JVM running for 306.02)
+2019-05-22 14:30:41,811 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 6056 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 14:30:41,818 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 14:30:41,826 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 14:31:04,512 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 25.032 seconds (JVM running for 27.146)
+2019-05-22 14:31:22,959 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 14:31:23,054 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String), 11(String)
+2019-05-22 14:31:23,295 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:31:24,141 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 14:31:24,142 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 14:31:24,156 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:31:28,024 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 14:31:28,026 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 14:31:28,036 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:32:41,921 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 14:32:41,923 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 14:32:41,926 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:33:09,203 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 56 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 14:33:09,209 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 14:33:09,217 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 14:33:30,937 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 23.759 seconds (JVM running for 25.849)
+2019-05-22 14:35:01,824 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 14:35:01,901 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String), 11(String)
+2019-05-22 14:35:01,967 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:35:03,091 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 14:35:03,094 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 14:35:03,098 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:35:08,982 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 14:35:08,984 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 14:35:08,994 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:42:14,393 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 56 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 14:42:14,394 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 14:42:14,395 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 14:42:22,822 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 8.701 seconds (JVM running for 557.736)
+2019-05-22 14:44:37,828 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 6068 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 14:44:37,834 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 14:44:37,842 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 14:45:01,215 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 25.753 seconds (JVM running for 27.932)
+2019-05-22 14:45:06,461 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 14:45:06,642 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String), 11(String)
+2019-05-22 14:45:06,740 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:45:07,699 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 14:45:07,700 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 14:45:07,705 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:45:13,703 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 14:45:13,705 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 14:45:13,715 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:48:12,594 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2224 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 14:48:12,600 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 14:48:12,607 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 14:48:34,023 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 23.742 seconds (JVM running for 25.913)
+2019-05-22 14:48:41,384 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 14:48:41,521 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String), 11(String)
+2019-05-22 14:48:41,580 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:48:42,473 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 14:48:42,475 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 14:48:42,479 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:49:02,337 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 14:49:02,340 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String), 22(String)
+2019-05-22 14:49:02,354 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:49:02,806 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 14:49:02,807 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 22(String)
+2019-05-22 14:49:02,813 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:49:05,518 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 14:49:05,519 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 14:49:05,523 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:49:08,022 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 14:49:08,024 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 14:49:08,028 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:49:37,250 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 14:49:37,253 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 14:49:37,255 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:51:06,201 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 14:51:06,203 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 14:51:06,208 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:52:49,047 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 14:52:49,048 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 14:52:49,052 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:53:02,664 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 14:53:02,665 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 14:53:02,668 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:53:46,206 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 14:53:46,208 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 14:53:46,227 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:57:27,141 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 14:57:27,142 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 14:57:27,148 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 14:58:56,060 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 14:58:56,062 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 14:58:56,064 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 15:00:38,528 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 5308 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:00:38,535 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:00:38,542 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:01:07,350 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 15:01:07,352 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String), 11(String)
+2019-05-22 15:01:07,365 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 15:01:08,032 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 15:01:08,033 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 15:01:08,036 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 15:01:20,843 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 15:01:20,846 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String), 11(String)
+2019-05-22 15:01:20,851 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 15:01:25,076 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 15:01:25,079 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 15:01:25,083 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 15:01:53,480 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:01:53,487 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:01:53,494 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:02:13,985 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 22.777 seconds (JVM running for 24.844)
+2019-05-22 15:02:34,592 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 15:02:34,680 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String), 11(String)
+2019-05-22 15:02:34,743 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 15:02:35,614 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 15:02:35,616 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 15:02:35,621 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 15:04:56,445 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 15:04:56,447 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 15:04:56,450 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 15:09:06,669 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:09:06,670 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:09:06,671 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:09:15,006 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 9.935 seconds (JVM running for 445.867)
+2019-05-22 15:09:30,363 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:09:30,363 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:09:30,364 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:09:37,461 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 7.192 seconds (JVM running for 468.322)
+2019-05-22 15:09:44,383 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:09:44,384 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:09:44,384 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:09:49,768 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 5.477 seconds (JVM running for 480.629)
+2019-05-22 15:13:43,801 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:13:43,801 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:13:43,802 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:14:31,979 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:14:31,979 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:14:32,077 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:14:36,602 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 4.745 seconds (JVM running for 767.465)
+2019-05-22 15:15:52,071 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:15:52,071 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:15:52,073 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:15:55,867 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.919 seconds (JVM running for 846.73)
+2019-05-22 15:16:21,322 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:16:21,322 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:16:21,323 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:16:26,491 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 5.336 seconds (JVM running for 877.355)
+2019-05-22 15:19:54,850 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:19:54,851 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:19:54,852 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:19:57,507 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.828 seconds (JVM running for 1088.372)
+2019-05-22 15:20:13,889 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:20:13,890 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:20:13,891 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:20:19,149 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 5.403 seconds (JVM running for 1110.015)
+2019-05-22 15:21:22,070 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:21:22,070 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:21:22,070 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:21:26,351 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 4.365 seconds (JVM running for 1177.217)
+2019-05-22 15:22:01,960 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:22:01,960 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:22:01,960 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:22:04,329 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.473 seconds (JVM running for 1215.194)
+2019-05-22 15:22:17,334 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:22:17,334 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:22:17,334 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:22:19,294 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.086 seconds (JVM running for 1230.16)
+2019-05-22 15:22:29,409 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:22:29,409 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:22:29,410 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:22:32,046 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.715 seconds (JVM running for 1242.912)
+2019-05-22 15:22:56,956 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:22:56,957 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:22:56,957 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:22:59,418 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.615 seconds (JVM running for 1270.284)
+2019-05-22 15:23:08,207 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:23:08,209 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:23:08,210 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:23:10,333 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.28 seconds (JVM running for 1281.2)
+2019-05-22 15:23:19,870 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:23:19,870 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:23:19,871 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:23:22,543 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.787 seconds (JVM running for 1293.409)
+2019-05-22 15:23:49,336 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:23:49,337 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:23:49,337 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:23:51,496 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.237 seconds (JVM running for 1322.361)
+2019-05-22 15:24:00,145 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:24:00,145 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:24:00,146 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:24:02,682 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.773 seconds (JVM running for 1333.548)
+2019-05-22 15:24:17,578 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:24:17,579 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:24:17,579 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:24:20,902 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.41 seconds (JVM running for 1351.768)
+2019-05-22 15:24:55,896 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:24:55,896 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:24:55,896 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:24:58,955 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.147 seconds (JVM running for 1389.821)
+2019-05-22 15:25:26,084 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:25:26,084 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:25:26,084 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:25:28,584 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.602 seconds (JVM running for 1419.449)
+2019-05-22 15:25:39,080 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:25:39,080 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:25:39,082 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:25:41,233 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.224 seconds (JVM running for 1432.098)
+2019-05-22 15:27:47,149 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 15:27:47,151 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String), 11(String)
+2019-05-22 15:27:47,156 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 15:27:47,848 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 15:27:47,849 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 15:27:47,852 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 15:28:53,438 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 15:28:53,439 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 15:28:53,455 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 15:30:19,396 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into shipin (shipin_url,username,name) values(?,?,?) 
+2019-05-22 15:30:19,398 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 7c283e39-844f-4457-a802-3af162020c5eba07fcb222cf547d107fae9f65458071.mp4(String), 11(String), 阿萨德(String)
+2019-05-22 15:30:19,402 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-22 15:31:04,716 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:31:04,716 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:31:04,717 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:31:07,591 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.97 seconds (JVM running for 1758.454)
+2019-05-22 15:48:39,904 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:48:39,904 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:48:39,905 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:48:48,082 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 8.267 seconds (JVM running for 2818.938)
+2019-05-22 15:48:51,426 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:48:51,427 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:48:51,427 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:48:56,552 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 5.188 seconds (JVM running for 2827.408)
+2019-05-22 15:49:05,622 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:49:05,622 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:49:05,623 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:49:08,329 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.793 seconds (JVM running for 2839.185)
+2019-05-22 15:49:16,925 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:49:16,925 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:49:16,926 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:49:19,412 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.574 seconds (JVM running for 2850.268)
+2019-05-22 15:49:33,625 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:49:33,626 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:49:33,626 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:49:37,610 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 4.069 seconds (JVM running for 2868.466)
+2019-05-22 15:49:42,721 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:49:42,721 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:49:42,721 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:49:45,641 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 2.989 seconds (JVM running for 2876.497)
+2019-05-22 15:49:56,108 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZb5cbpcjbrr5zZ with PID 2472 (C:\Users\Administrator\Desktop\zhibo\zhibo\target\classes started by Administrator in C:\Users\Administrator\Desktop\zhibo\zhibo)
+2019-05-22 15:49:56,109 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-05-22 15:49:56,109 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-05-22 15:49:59,160 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 3.133 seconds (JVM running for 2890.016)
+2019-05-22 15:55:38,045 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 15:55:38,048 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 15:55:38,050 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 15:55:42,062 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-22 15:55:42,064 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 15:55:42,069 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 15:57:26,471 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-22 15:57:26,472 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 15:57:26,474 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 15:59:58,048 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-22 15:59:58,050 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 15:59:58,052 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 16:00:42,569 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-22 16:00:42,571 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 16:00:42,573 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 16:06:44,233 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-22 16:06:44,234 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 16:06:44,236 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 16:08:15,744 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 16:08:15,746 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 16:08:15,749 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 16:08:24,692 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-22 16:08:24,693 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 16:08:24,694 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 16:12:11,293 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 16:12:11,295 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 16:12:11,299 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 16:12:12,769 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-22 16:12:12,770 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 16:12:12,774 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 16:13:32,393 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 16:13:32,394 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 16:13:32,396 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 16:13:34,760 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-22 16:13:34,762 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 16:13:34,765 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 16:15:44,228 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-22 16:15:44,230 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 16:15:44,231 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 16:30:48,441 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 16:30:48,443 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String), 11(String)
+2019-05-22 16:30:48,446 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 16:30:49,066 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 16:30:49,068 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 16:30:49,070 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 16:30:50,383 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-22 16:30:50,385 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 16:30:50,391 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 16:31:34,074 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-22 16:31:34,075 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 16:31:34,076 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 16:35:26,444 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-22 16:35:26,446 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 16:35:26,449 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 16:35:49,077 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 16:35:49,079 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 11(String)
+2019-05-22 16:35:49,082 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 16:35:50,766 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-22 16:35:50,768 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 16:35:50,769 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 16:37:01,334 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-22 16:37:01,337 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 16:37:01,339 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 16:37:49,919 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-22 16:37:49,921 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 16:37:49,924 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 16:38:18,072 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-22 16:38:18,074 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 16:38:18,078 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 17:53:36,821 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 17:53:36,823 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123(String), 1234(String)
+2019-05-22 17:53:36,826 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-22 17:53:44,515 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 17:53:44,516 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123(String), 1234123(String)
+2019-05-22 17:53:44,519 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-22 17:53:58,307 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 17:53:58,310 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123456(String)
+2019-05-22 17:53:58,316 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 17:54:09,889 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 17:54:09,890 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1234567(String)
+2019-05-22 17:54:09,892 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-22 17:54:09,893 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into user (username,password,leixing) values(?,?,?) 
+2019-05-22 17:54:09,894 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1234567(String), 123456(String), 普通用户(String)
+2019-05-22 17:54:09,907 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-22 17:54:19,706 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 17:54:19,713 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1234567(String), 123456(String)
+2019-05-22 17:54:19,715 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 17:54:20,200 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 17:54:20,201 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1234567(String)
+2019-05-22 17:54:20,203 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 17:54:24,493 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where 1=1 and username like CONCAT('%',?,'%') 
+2019-05-22 17:54:24,494 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1234567(String)
+2019-05-22 17:54:24,496 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 17:54:40,536 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: delete from user where id = ? 
+2019-05-22 17:54:40,538 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 5(Integer)
+2019-05-22 17:54:40,548 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-05-22 17:54:40,698 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where 1=1 and username like CONCAT('%',?,'%') 
+2019-05-22 17:54:40,707 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1234567(String)
+2019-05-22 17:54:40,708 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-22 17:57:00,388 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 17:57:00,389 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1234567(String), 123456(String)
+2019-05-22 17:57:00,397 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-05-22 17:57:27,695 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? and password = ? 
+2019-05-22 17:57:27,696 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123456(String), 123456(String)
+2019-05-22 17:57:27,699 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 17:57:28,114 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from user where username = ? 
+2019-05-22 17:57:28,116 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 123456(String)
+2019-05-22 17:57:28,125 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 17:57:32,686 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from shipin 
+2019-05-22 17:57:32,688 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 17:57:32,695 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-05-22 17:57:55,564 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from fangjian where 1=1 
+2019-05-22 17:57:55,570 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-05-22 17:57:55,573 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1

@@ -1,0 +1,46 @@
+2019-04-30 10:47:12,254 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 5912 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-04-30 10:47:12,261 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-30 10:47:12,265 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-04-30 10:49:10,364 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 5256 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-04-30 10:49:10,368 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-30 10:49:10,368 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-04-30 10:52:32,204 INFO (StartupInfoLogger.java:50)- Starting Demo2Application on iZ6ea73xl4vl6qZ with PID 5784 (C:\Users\Administrator\Desktop\jiank(2)\jiank\target\classes started by Administrator in C:\Users\Administrator\Desktop\jiank(2)\jiank)
+2019-04-30 10:52:32,207 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-30 10:52:32,211 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2019-04-30 10:52:48,208 INFO (StartupInfoLogger.java:59)- Started Demo2Application in 17.763 seconds (JVM running for 19.07)
+2019-04-30 11:02:09,775 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_sys_user where username = ? and password = ? 
+2019-04-30 11:02:09,833 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String), 123456(String)
+2019-04-30 11:02:09,905 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-04-30 11:02:31,675 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_sys_user where username = ? and password = ? 
+2019-04-30 11:02:31,677 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String), 123456(String)
+2019-04-30 11:02:31,680 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-04-30 11:02:49,554 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-04-30 11:02:49,555 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-04-30 11:02:49,565 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2019-04-30 11:03:13,686 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-04-30 11:03:13,688 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-04-30 11:03:13,699 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2019-04-30 11:03:21,549 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select sum(is_right)*2 as chengji,user_id,username from t_user_answer where 1=1 group by user_id 
+2019-04-30 11:03:21,551 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-04-30 11:03:21,574 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-04-30 11:03:21,575 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_sys_user where id = ? 
+2019-04-30 11:03:21,576 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer)
+2019-04-30 11:03:21,581 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-04-30 15:22:33,974 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-04-30 15:22:34,096 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-04-30 15:22:34,469 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2019-04-30 16:30:04,714 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-04-30 16:30:04,717 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-04-30 16:30:04,721 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 3
+2019-04-30 16:32:29,432 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-04-30 16:32:29,433 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-04-30 16:32:29,480 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-04-30 16:36:38,356 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-04-30 16:36:38,357 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-04-30 16:36:38,360 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-04-30 16:37:23,765 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-04-30 16:37:23,767 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-04-30 16:37:23,769 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5
+2019-04-30 16:37:54,653 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from t_shijuan where 1=1 
+2019-04-30 16:37:54,654 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-04-30 16:37:54,657 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 5

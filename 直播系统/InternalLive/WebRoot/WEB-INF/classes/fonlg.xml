@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 引入配置文件信息 -->
+	<properties resource="database.properties"></properties>
+	<!-- 定义别名 -->
+	<typeAliases>
+		<package name="com.live.entit" />
+	</typeAliases>
+	<environments default="development">
+		<environment id="development">
+			<!--事务管理器的配置 -->
+			<transactionManager type="JDBC" />
+			<!-- 配置数据库信息 -->
+			<dataSource type="POOLED">
+				<property name="driver" value="${driver}" />
+				<property name="url" value="${url}" />
+				<property name="username" value="${username}" />
+				<property name="password" value="${password}" />
+			</dataSource>
+		</environment>
+	</environments>
+	<!-- 将映射文件注册进来 -->
+	<mappers>
+		<mapper resource="com/live/usermapperdao/UserMapper.xml"></mapper>
+	</mappers>
+</configuration>

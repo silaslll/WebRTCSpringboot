@@ -1,0 +1,30 @@
+/* CSS Document */
+a{text-decoration:none;color:#0190D4;}
+.tx_box{border:1px solid #d1d1d1;background:#fff;width:65%;height:50%;float:left;}
+.tx_box1{border:1px solid #d1d1d1;background:#fff;width:34%;height:50%;float:right;}
+.clear{clear:both;}
+.tx_box2{border:1px solid #d1d1d1;background:#fff;width:99.9%;height:52%;margin-top:5px;}
+.m1{border-bottom:1px solid #d1d1d1;padding:4px 10px;}
+.workplace{width:100%;}
+.workplace li{list-style:none;float:left;margin-right:35px;}
+.m_text{line-height:28px;color:#666666;}
+.m_text a:link,.m_text a:visited{color:#666;text-decoration:none;}
+.m_text a:hover,.m_text a:active{color:#0190D4;text-decoration:none;}
+.newlist{padding:10px;}
+.newlist ul,.newlist li{margin:0;padding:0;}
+.newlist li{list-style:none;line-height:25px;background:url(email.jpg) no-repeat left center;padding-left:25px;}
+.newlist a:link,.newlist a:visited{color:#666;text-decoration:none;}
+.newlist a:hover,.newlist a:active{color:#0190D4;text-decoration:none;}
+.count{}
+.count ul,.count li{margin:0;padding:0;}
+.count ul{margin-left:10px;margin-top:10px;}
+.count li{background:url(tj.jpg) no-repeat;width:94px;height:81px;list-style:none;float:left;margin-right:10px;margin-bottom:12px;}
+.m_count{line-height:40px;text-decoration:none;text-align:center;}
+.m_text1{line-height:40px;text-align:center;color:#fff;}
+.m_text1 a{color:#fff;font-size:14px;text-decoration:none;}
+.m_count a{color:#666;font-size:14px;text-decoration:none;}
+.my_window h2{font-size:16px;text-align:center;line-height:40px;border-bottom:1px solid #ccc;margin:0px;padding:0px;color:#0190D4;}
+.my_window p{line-height:25px;font-size:14px;}
+.my_search{font-size:12px;margin-top:4px;margin-bottom:4px;padding-left:4px;}
+.my_search input{width:80px;border:1px solid #95B8E7;border-radius:5px;margin-right:10px;}
+.my_search select{margin-right:10px;}

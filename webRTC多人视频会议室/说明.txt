@@ -1,0 +1,2 @@
+需要在Controller单独写一个获取登录用户的请求(ajax位于js文件20行)
+因为websocket是根据拼接用户名来连接

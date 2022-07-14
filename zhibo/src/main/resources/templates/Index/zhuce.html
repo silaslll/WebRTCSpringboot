@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html style="width:100%;height:100%;">
+<head>
+<meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/common/themes/default/easyui.css" />
+	<link rel="stylesheet" type="text/css" href="/common/themes/icon.css" />
+	<link rel="stylesheet" type="text/css" href="/common/themes/main.css" />
+	<script type="text/javascript" src="/common/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/common/js/common.js"></script>
+	<script type="text/javascript" src="/common/js/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="/common/js/easyui-lang-zh_CN.js"></script>
+</head>
+<body style="margin:0px; height:100%;">
+	<form id="updateForm"  method="POST" enctype="multipart/form-data">
+	<table class="bu_table">
+		<tr>
+			<td class="td_left">用户名</td>
+			<td class="td_right">
+				<input class="td_input" id="username1" name="username"/>
+			</td>
+		</tr>
+		<tr>
+			<td class="td_left">密码</td>
+			<td class="td_right">
+				<input class="td_input" id="password1" name="password"/>
+			</td>
+		</tr>
+		<tr>
+			<td class="td_left">选择用户类型</td>
+			<td class="td_right">
+				<select id="leixing" class="easyui-combobox" name="leixing" style="width:200px;">   
+				    <option value="">选择用户类型</option>   
+				    <option value="医生">医生</option>   
+				   <option value="普通用户">普通用户</option>   
+				</select>  
+				
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+				<input type="button" class="greenbtn" onclick="sure();" value="确定"/>
+			</td>
+		</tr>
+	</table>
+	</form>
+	
+<script type="text/javascript">
+function sure(){
+	var url1 = getRootPath()+"/Index/zhuce_user";
+	var username = $("#username1").val();
+	var password = $("#password1").val();
+	var leixing  = $("#leixing").combobox('getValue');	
+	if(username&&password&&leixing){
+		 $.ajax({
+	         //远程Rest接口
+	         url:url1,
+	         type:'POST',
+	         data:$("#updateForm").serialize(),
+			 cache: false,
+	        success:function(data){
+	        	if(data.status==2){
+	    			$.messager.alert('提示',data.info,'info'); 
+	    		}else if(data.status==1){
+	    			window.location.href=getRootPath()+"/Index/index";
+	    			$.messager.alert('提示',data.info,'info');
+	    		}else if(data.status==0){
+	    			$.messager.alert('提示',data.info,'info'); 
+	    		}
+	        },
+		 }) 
+	}else{
+		$.messager.alert('提示',"请先补全信息",'info'); 
+	}
+}
+</script>
+</body>
+</html>
