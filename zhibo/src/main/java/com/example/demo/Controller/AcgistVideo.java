@@ -15,6 +15,8 @@ import javax.websocket.server.ServerEndpoint;
 
 import org.springframework.stereotype.Component;
 
+
+
 @ServerEndpoint("/acgist/{uid}")
 @Component
 public class AcgistVideo {
@@ -25,6 +27,7 @@ public class AcgistVideo {
 	private static final Map<String, String> user_user = Collections.synchronizedMap(new HashMap<String, String>()); 
 	// 用户和websocket的session映射
 	private static final Map<String, Session> sessions = Collections.synchronizedMap(new HashMap<String, Session>());
+	
 	
 	/**
 	 * 打开websocket
@@ -39,6 +42,7 @@ public class AcgistVideo {
 		sessions.put(uid, session);
 	}
 
+	
 	/**
 	 * websocket关闭
 	 * @param session 关闭的session
@@ -103,6 +107,7 @@ public class AcgistVideo {
 		return !(oid != null && user_user.containsKey(oid) && user_user.get(oid) != null);
 	}
 	
+	
 	/**
 	 * 添加视频对象
 	 * @param uid 申请对话的ID
@@ -121,6 +126,7 @@ public class AcgistVideo {
 			return true;
 		}
 	}
+	
 	
 	/**
 	 * 移除聊天用户
